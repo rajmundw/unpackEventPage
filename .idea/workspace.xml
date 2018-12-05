@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71316c36-f37f-4079-8c4d-8d79ebc743f5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Contact/Contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Implementation/Implementation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Implementation/Projects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/MenuList/MenuList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Nav/Nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Offer/Offer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Offer/Offerts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SansaraGroup/SansaraGroup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Slider/Slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Containers/RestOfLayout/RestOfLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Functions/showFunction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backgroundElements/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/backgroundElements/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,20 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Containers/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="135">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -55,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/src/Components/Contact/Contact.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-321">
-              <caret line="1" column="79" lean-forward="true" selection-start-line="1" selection-start-column="79" selection-end-line="1" selection-end-column="79" />
+              <caret line="1" column="79" selection-start-line="1" selection-start-column="79" selection-end-line="1" selection-end-column="79" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -66,8 +46,8 @@
       <file leaf-file-name="Implementation.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Implementation/Implementation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="98" selection-start-line="17" selection-start-column="98" selection-end-line="17" selection-end-column="98" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -78,8 +58,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="791" column="18" selection-start-line="791" selection-start-column="18" selection-end-line="791" selection-end-column="18" />
+            <state relative-caret-position="143">
+              <caret line="716" column="29" selection-start-line="716" selection-start-column="29" selection-end-line="716" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -164,6 +144,9 @@
       <find>scroll</find>
       <find>scrol</find>
       <find>off</find>
+      <find>red</find>
+      <find>offer</find>
+      <find>proje</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,13 +173,13 @@
         <option value="$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js" />
         <option value="$PROJECT_DIR$/src/Components/UnpackSection/UnpackComponent.js" />
         <option value="$PROJECT_DIR$/src/Containers/RestOfLayout/RestOfLayout.js" />
-        <option value="$PROJECT_DIR$/src/Containers/App.js" />
         <option value="$PROJECT_DIR$/src/Components/Offer/Offerts.js" />
         <option value="$PROJECT_DIR$/src/Components/Implementation/Projects.js" />
         <option value="$PROJECT_DIR$/src/Components/Offer/Offer.js" />
         <option value="$PROJECT_DIR$/src/Components/Implementation/Implementation.js" />
-        <option value="$PROJECT_DIR$/src/scss/main.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/scss/main.scss" />
+        <option value="$PROJECT_DIR$/src/Containers/App.js" />
       </list>
     </option>
   </component>
@@ -230,8 +213,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="319" />
-    <option name="y" value="266" />
+    <option name="x" value="259" />
+    <option name="y" value="335" />
     <option name="width" value="1063" />
     <option name="height" value="554" />
   </component>
@@ -397,15 +380,15 @@
       <updated>1543534320044</updated>
       <workItem from="1543534337134" duration="42876000" />
       <workItem from="1543790226384" duration="21990000" />
-      <workItem from="1543815028907" duration="73492000" />
+      <workItem from="1543815028907" duration="78272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138358000" />
+    <option name="totallyTimeSpent" value="143138000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="309" y="86" width="1063" height="554" extended-state="0" />
+    <frame x="259" y="335" width="1063" height="554" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -764,26 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Contact/Contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-321">
-          <caret line="1" column="79" lean-forward="true" selection-start-line="1" selection-start-column="79" selection-end-line="1" selection-end-column="79" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Containers/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../usersList/src/components/menu/menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -824,10 +787,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Implementation/Implementation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="98" selection-start-line="17" selection-start-column="98" selection-end-line="17" selection-end-column="98" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Contact/Contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-321">
+          <caret line="1" column="79" selection-start-line="1" selection-start-column="79" selection-end-line="1" selection-end-column="79" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
@@ -836,15 +816,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="791" column="18" selection-start-line="791" selection-start-column="18" selection-end-line="791" selection-end-column="18" />
+        <state relative-caret-position="143">
+          <caret line="716" column="29" selection-start-line="716" selection-start-column="29" selection-end-line="716" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/Containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="135">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

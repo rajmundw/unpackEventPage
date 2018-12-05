@@ -5,7 +5,9 @@
 
 
 body{
-  background: red;
+  background-image: url("../backgroundElements/background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%
 
 }
 //animation
@@ -182,7 +184,6 @@ header {
 @media (max-width: 576px) {
   body {
     min-height: 1vh;
-    background: red !important;
   }
   .active{
     font-weight: bold;
@@ -713,7 +714,7 @@ header {
     //Implementation
     .projects{
       margin-top: 10vw;
-      background: white;
+      background: transparent;
       a{
         margin: auto;
       }
@@ -732,8 +733,7 @@ header {
         margin-left: 0px;
 
         div {
-          background: #e8f5e1;
-          display: flex;
+          background: linear-gradient(45deg, rgba(232,245,225,0) 12%, rgba(232,245,225,1) 24%, rgba(232,245,225,0.99) 28%, rgba(232,245,225,0.98) 31%, rgba(232,245,225,0.96) 38%, rgba(232,245,225,0.96) 41%, rgba(232,245,225,0.93) 52%, rgba(232,245,225,0.92) 56%, rgba(232,245,225,0.91) 58%, rgba(232,245,225,0.9) 63%, rgba(232,245,225,0.87) 73%, rgba(240,248,235,0.85) 82%, rgba(252,254,252,0) 97%, rgba(255,255,255,0) 100%);          display: flex;
           justify-content: center;
           flex-direction: column;
           border-radius: 7vw;
@@ -781,7 +781,7 @@ header {
     //offer
     .offerts{
       margin-top: 10vw;
-      background: white;
+      background: transparent;
       a{
         margin: auto;
       }
@@ -802,7 +802,7 @@ header {
         margin-left: 0px;
 
         div {
-          background: #35403f;
+          background: linear-gradient(135deg, rgba(56,67,66,0) 12%, rgba(56,67,66,0.82) 24%, rgba(56,67,66,0.79) 28%, rgba(56,67,66,0.77) 31%, rgba(56,67,66,0.72) 38%, rgba(56,67,66,0.7) 41%, rgba(56,67,66,0.62) 52%, rgba(56,67,66,0.59) 56%, rgba(56,67,66,0.58) 58%, rgba(56,67,66,0.54) 63%, rgba(56,67,66,0.47) 73%, rgba(122,130,129,0.41) 82%, rgba(167,171,171,0) 88%, rgba(255,255,255,0) 100%);
           display: flex;
           justify-content: center;
           flex-direction: column;
@@ -882,7 +882,8 @@ header {
         div:nth-of-type(2){
           padding-top: 10vw;
           padding-bottom: 10vw;
-          background: rgba(232, 245, 225, 0.8);
+          border: solid 2px #969f99;
+          border-radius: 10vw;
           margin-top: 10vw;
           margin-bottom: 10vw;
           header{

@@ -7,7 +7,7 @@ class App extends Component {
     constructor(props){
         super()
         this.state={
-            unpackedEvent:true,
+            unpackedEvent:false,
         }
         this.maxWidth=''
     }
@@ -15,7 +15,12 @@ class App extends Component {
         window.innerWidth=400
          this.maxWidth=document.getElementsByTagName('body')[0].clientWidth
         document.getElementsByTagName('body')[0].style.width=`${this.maxWidth}px`
-        console.log(document.getElementsByTagName('body'))
+        console.log(window)
+    }
+    componentDidUpdate(){
+        if(this.state.unpackedEvent){
+
+        }
     }
 
     renderRestOfPage(){
