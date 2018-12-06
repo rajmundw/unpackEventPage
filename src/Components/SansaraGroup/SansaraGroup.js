@@ -10,12 +10,12 @@ const sansaraGroup = () => {
             <section className='sansara-group' id="sansara-group">
                 <div className="container">
                     <div className="row">
-                        <div className="col-9 img-rise-body">
+                        <div className="col-9 img-rise-body col-sm-6 offset-sm-1">
                           <img src={Rise}  />
                         </div>
                         <div className="col-3">
                         </div>
-                        <div className="col-7 offset-5 img-sansara-body">
+                        <div className="col-7 col-sm-6 offset-sm-5 offset-5 img-sansara-body">
                             <img src={Sansara}/>
                         </div>
                         <div className="col-10 offset-1">

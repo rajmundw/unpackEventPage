@@ -6,7 +6,9 @@ class Nav extends PureComponent  {
         this.state={
             shouldMenuRender:false,
             bottomMenuPosition:0,
-            pageYOffset:window.pageYOffset
+            pageYOffset:window.pageYOffset,
+            innerWidth:window.innerWidth,
+            topInitialMenuPosition:0
         }
         this.pageYOffset=0
         this.interval=false
@@ -14,8 +16,20 @@ class Nav extends PureComponent  {
     }
 
     componentDidMount(){
+        const topInitialPosition=document.querySelectorAll('.menu')[0].parentNode.offsetTop
+
+        if(this.state.innerWidth>576){
+            this.setState({
+                shouldMenuRender:true,
+                topInitialMenuPosition:topInitialPosition
+            })
+        }else{
+            this.setState({
+                topInitialMenuPosition:topInitialPosition
+            })
+        }
+
         this.pageYOffset=window.pageYOffset
-        console.log(window)
 
         window.addEventListener('touchstart',(event)=> {
             if (this.state.shouldMenuRender && !event.target.classList.contains('menu-points')
@@ -25,30 +39,34 @@ class Nav extends PureComponent  {
                 && event.target.tagName!=="LI"
                 && event.target.tagName!=="UL"
                 && event.target.tagName!=="A") {
-                if (window.innerWidth * 0.16 <= window.pageYOffset ) {
 
-                    document.querySelector('.menu').style.visibility = 'hidden'
-                }
+                if (this.state.innerWidth <= 576) {
+                    if (this.state.topInitialMenuPosition <= window.pageYOffset) {
+
+                        document.querySelector('.menu').style.visibility = 'hidden'
+                    }
                     this.setState({
                         shouldMenuRender: false,
                     })
                 }
+            }
         })
 
         window.addEventListener('scroll',()=>{
-
-            if(this.state.shouldMenuRender){
-                this.setState({
-                    shouldMenuRender:false
-                })
-                document.querySelector('.menu').style.visibility = 'visible'
+            if(this.state.innerWidth<=576) {
+                if (this.state.shouldMenuRender) {
+                    this.setState({
+                        shouldMenuRender: false
+                    })
+                    document.querySelector('.menu').style.visibility = 'visible'
+                }
             }
 
             if(document.querySelector('.menu')) {
                 let classList = document.querySelector('.menu').classList
                 let offset = window.pageYOffset
 
-                if (window.innerWidth * 0.16 <= offset) {
+                if (this.state.topInitialMenuPosition <= offset) {
 
                     if (!this.interval) {
                         this.interval = true
@@ -65,22 +83,29 @@ class Nav extends PureComponent  {
 
                         }, 1000)
                     }
+                    if(document.querySelector('.menu-list') && document.querySelector('.menu-list').classList.contains('menu-list-white')){
+                        document.querySelector('.menu-list').classList.remove('menu-list-white')
+                    }
 
+
+                    if (!classList.contains('sticky')) {
+                        document.querySelector('.menu').classList.add('sticky')
+                        document.querySelector('.menu').style.backgroundColor = 'black'
+                    }
+                    if(document.querySelector('.menu').style.backgroundColor !== 'black'){
+                        document.querySelector('.menu').style.backgroundColor = 'black'
+                    }
                 }
                 if (document.querySelector('.menu').style.visibility !== 'visible') {
                     document.querySelector('.menu').style.visibility = 'visible'
                 }
 
-                if (!classList.contains('sticky')) {
-                    document.querySelector('.menu').classList.add('sticky')
-                    document.querySelector('.menu').style.backgroundColor = 'black'
-                }
-                if(document.querySelector('.menu').style.backgroundColor !== 'black'){
-                    document.querySelector('.menu').style.backgroundColor = 'black'
 
-                }
+                if (this.state.topInitialMenuPosition > offset ) {
 
-                if (window.innerWidth * 0.16 > offset ) {
+                    if(document.querySelector('.menu-list') && !document.querySelector('.menu-list').classList.contains('menu-list-white')){
+                        document.querySelector('.menu-list').classList.add('menu-list-white')
+                    }
 
                     clearInterval(this.setInterval)
                     this.interval=false
@@ -104,7 +129,7 @@ class Nav extends PureComponent  {
         }
 
         if(this.state.shouldMenuRender){
-            if (window.innerWidth * 0.16 <= window.pageYOffset ){
+            if (this.state.topInitialMenuPosition <= window.pageYOffset ){
                 this.interval = true
                 this.setInterval = setInterval(() => {
                     if (this.pageYOffset !== window.pageYOffset) {
@@ -128,34 +153,50 @@ class Nav extends PureComponent  {
     }
     componentDidUpdate(){
 
+        console.log(this.state)
 
         let offset = window.pageYOffset
-        if (window.innerWidth * 0.16 <= offset && !document.querySelector('.menu').classList.contains('sticky')) {
+        if(this.state.innerWidth<=576) {
+            if (this.state.topInitialMenuPosition <= offset && !document.querySelector('.menu').classList.contains('sticky')) {
 
-            document.querySelector('.menu').classList.add('sticky')
-        }
-        if(document.querySelector('.menu-points')) {
-            document.querySelector('.menu-points').style.position = 'fixed'
-            document.querySelector('.menu-points').style.top = `${this.state.bottomMenuPosition}px`
+                document.querySelector('.menu').classList.add('sticky')
+            }
+            if (document.querySelector('.menu-points')) {
+                document.querySelector('.menu-points').style.position = 'fixed'
+                document.querySelector('.menu-points').style.top = `${this.state.bottomMenuPosition}px`
+            }
         }
     }
 
+
     render(){
-        console.log(this.state.shouldMenuRender)
-            if(this.state.shouldMenuRender){
-                return(
-                    <nav className='menu'>
-                        <div onClick={(event)=>this.showMenu(event)} className=' menu-container'>
-                            <div className="bar-menu"></div>
-                            <div className="bar-menu"></div>
-                            <div className="bar-menu"></div>
-                        </div>
-                        <div className="menu-points">
-                            <MenuList/>
-                        </div>
-                    </nav>
-                )
+
+            if(this.state.shouldMenuRender) {
+                console.log('true')
+                if (this.state.innerWidth<=576) {
+                    return (
+                        <nav className='menu'>
+                            <div onClick={(event) => this.showMenu(event)} className=' menu-container'>
+                                <div className="bar-menu"></div>
+                                <div className="bar-menu"></div>
+                                <div className="bar-menu"></div>
+                            </div>
+                            <div className="menu-points">
+                                <MenuList/>
+                            </div>
+                        </nav>
+                    )
+                }else if(this.state.innerWidth>576 && this.state.innerWidth<=768 ){
+                    console.log('tablet')
+                    return (
+                        <nav className='menu'>
+                            <div className="menu-points">
+                                <MenuList/>
+                            </div>
+                        </nav>)
+                }
             }else {
+                console.log('false')
                 return(
                 <nav className='menu '>
                     <div onClick={(event)=>this.showMenu(event)} className=' hidden menu-container'>
@@ -166,6 +207,7 @@ class Nav extends PureComponent  {
                 </nav>
                 )
             }
+
     }
 }
 

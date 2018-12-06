@@ -12,7 +12,6 @@ class App extends Component {
         this.maxWidth=''
     }
     componentDidMount(){
-        window.innerWidth=400
          this.maxWidth=document.getElementsByTagName('body')[0].clientWidth
         document.getElementsByTagName('body')[0].style.width=`${this.maxWidth}px`
         console.log(window)
