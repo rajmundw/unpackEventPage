@@ -2,6 +2,9 @@ import React, {PureComponent} from 'react'
 import Header from '../../Components/Header/Header'
 import UnpackComponent from '../../Components/UnpackSection/UnpackComponent'
 import AnimationBubblesTablet from '../../Components/AnimationBubbles/AnimationBubblesTablet'
+import AnimationBubbles from '../../Components/AnimationBubbles/AnimationBubbles'
+import AnimationBubbles2 from '../../Components/AnimationBubbles/AnimationBubbles2'
+import fullPageBackground from '../../backgroundElements/background>768.png'
 import {BrowserRouter, Route} from 'react-router-dom'
 class InitialLayout extends PureComponent  {
     constructor(props){
@@ -28,17 +31,29 @@ class InitialLayout extends PureComponent  {
         if (document.querySelector('.a')) {
             document.querySelector('.a').style.height = `0px`
         }
+        if (document.querySelector('.b')) {
+            document.querySelector('.b').style.height = `0px`
+        }
     }
 
     unpackedEvent(){
         console.log(this.state.siteMaxHeight)
-        document.querySelector('.bubbles-tablet').style.position='absolute'
-        document.querySelector('.bubbles-tablet').style.top=`${-this.state.siteMaxHeight}px`
+        if(document.querySelector('.bubbles-tablet')) {
+            document.querySelector('.bubbles-tablet').style.position = 'absolute'
+            document.querySelector('.bubbles-tablet').style.top = `${-this.state.siteMaxHeight}px`
+        }else if(document.querySelector('.bubbles') && document.querySelector('.bubbles2')) {
+            document.querySelector('.bubbles').style.position = 'absolute'
+            document.querySelector('.bubbles').style.top = `${-this.state.siteMaxHeight}px`
+            document.querySelector('.bubbles2').style.position = 'absolute'
+            document.querySelector('.bubbles2').style.top = `${-this.state.siteMaxHeight}px`
 
+        }
         setTimeout(()=>{
-            (this.props.renderRestOfPage()
-
-            )},1500)
+            this.props.renderRestOfPage()
+                if(window.innerWidth>768) {
+                    document.querySelector('body').style.backgroundSize='100% 100%'
+                }
+            },1500)
     }
 
     scrollToUnpack(){
@@ -70,14 +85,29 @@ class InitialLayout extends PureComponent  {
         this.scrollToUnpack()
     }
     render(){
-
+        if(window.innerWidth<=768) {
             return (
                     <div className="initial-layout">
                         <Header/>
                         <UnpackComponent unpackEvent={this.unpackEvent}/>
-                        <AnimationBubblesTablet siteMaxHeight={this.state.siteMaxHeight} shouldAnimated={this.state.shouldAnimateBubbles}/>
+                        <AnimationBubblesTablet siteMaxHeight={this.state.siteMaxHeight}
+                                                shouldAnimated={this.state.shouldAnimateBubbles}/>
                     </div>
             )
+        }else{
+            return (
+                    <div className="initial-layout">
+                            <Header/>
+                            <UnpackComponent unpackEvent={this.unpackEvent}/>
+                            <AnimationBubbles siteMaxHeight={this.state.siteMaxHeight}
+                                                    shouldAnimated={this.state.shouldAnimateBubbles}/>
+                            <AnimationBubbles2 siteMaxHeight={this.state.siteMaxHeight}
+                                                  shouldAnimated={this.state.shouldAnimateBubbles}/>
+
+                    </div>
+            )
+        }
+
 
     }
 }

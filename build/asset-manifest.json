@@ -1,12 +1,12 @@
 {
-  "main.css": "/unpackEventPage/static/css/main.964c1948.chunk.css",
-  "main.js": "/unpackEventPage/static/js/main.f9aafe91.chunk.js",
-  "main.js.map": "/unpackEventPage/static/js/main.f9aafe91.chunk.js.map",
+  "main.css": "/unpackEventPage/static/css/main.0c736b33.chunk.css",
+  "main.js": "/unpackEventPage/static/js/main.fe4bdd49.chunk.js",
+  "main.js.map": "/unpackEventPage/static/js/main.fe4bdd49.chunk.js.map",
   "static/js/1.4e564b50.chunk.js": "/unpackEventPage/static/js/1.4e564b50.chunk.js",
   "static/js/1.4e564b50.chunk.js.map": "/unpackEventPage/static/js/1.4e564b50.chunk.js.map",
   "runtime~main.js": "/unpackEventPage/static/js/runtime~main.15d7e7a7.js",
   "runtime~main.js.map": "/unpackEventPage/static/js/runtime~main.15d7e7a7.js.map",
-  "static/media/fontello.css": "/unpackEventPage/static/media/fontello.d842d5dc.svg",
+  "static/media/fontello.css": "/unpackEventPage/static/media/fontello.d7790aa8.woff",
   "static/media/rise_body.png": "/unpackEventPage/static/media/rise_body.dde2a58a.png",
   "static/media/work_comfort.png": "/unpackEventPage/static/media/work_comfort.5d58591d.png",
   "static/media/save.png": "/unpackEventPage/static/media/save.981b2bad.png",
@@ -21,8 +21,8 @@
   "static/media/bubbles-tablet.png": "/unpackEventPage/static/media/bubbles-tablet.f0a014ad.png",
   "static/media/main.css": "/unpackEventPage/static/media/background.c583ad4c.png",
   "static/media/sansara_group.png": "/unpackEventPage/static/media/sansara_group.74e9069d.png",
-  "static/css/main.964c1948.chunk.css.map": "/unpackEventPage/static/css/main.964c1948.chunk.css.map",
+  "static/css/main.0c736b33.chunk.css.map": "/unpackEventPage/static/css/main.0c736b33.chunk.css.map",
   "index.html": "/unpackEventPage/index.html",
-  "precache-manifest.7b438ff362ed475f30d6fe219262d9ae.js": "/unpackEventPage/precache-manifest.7b438ff362ed475f30d6fe219262d9ae.js",
+  "precache-manifest.e8ae8aaec84e5d08fda49f8c93dee1f2.js": "/unpackEventPage/precache-manifest.e8ae8aaec84e5d08fda49f8c93dee1f2.js",
   "service-worker.js": "/unpackEventPage/service-worker.js"
 }

@@ -2,13 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71316c36-f37f-4079-8c4d-8d79ebc743f5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Slider/Slider&gt;768.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.7b438ff362ed475f30d6fe219262d9ae.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.964c1948.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.964c1948.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.f9aafe91.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.f9aafe91.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubblesTablet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubblesTablet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Implementation/Implementation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Implementation/Implementation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Implementation/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Implementation/Projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/MenuList/MenuList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MenuList/MenuList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Nav/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Offer/Offer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Offer/Offer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/SansaraGroup/SansaraGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SansaraGroup/SansaraGroup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Slider/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slider/Slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UnpackSection/UnpackComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UnpackSection/UnpackComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/RestOfLayout/RestOfLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/RestOfLayout/RestOfLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Functions/showFunction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/showFunction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backgroundElements/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/backgroundElements/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backgroundElements/bubbles.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/backgroundElements/bubbles.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
@@ -24,11 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Containers/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+            <state relative-caret-position="135">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -36,40 +61,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Header/Header.js">
+      <file leaf-file-name="InitialLayout.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15555">
-              <caret line="1037" column="5" selection-start-line="1037" selection-start-column="5" selection-end-line="1037" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/MenuList/MenuList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Nav.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Nav/Nav.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+            <state relative-caret-position="280">
+              <caret line="53" column="82" selection-start-line="53" selection-start-column="82" selection-end-line="53" selection-end-column="82" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="1342" column="23" lean-forward="true" selection-start-line="1342" selection-start-column="23" selection-end-line="1342" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestOfLayout.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Containers/RestOfLayout/RestOfLayout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,24 +105,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bubbles-pa</find>
-      <find>bubbl</find>
-      <find>acti</find>
-      <find>.acti</find>
-      <find>offse</find>
-      <find>h1</find>
-      <find>init</find>
-      <find>scroll</find>
-      <find>scrol</find>
-      <find>off</find>
-      <find>red</find>
-      <find>offer</find>
-      <find>proje</find>
-      <find>icon</find>
-      <find>ico</find>
       <find>menu-ani</find>
-      <find>contact</find>
-      <find>stic</find>
       <find>befo</find>
       <find>bef</find>
       <find>botto</find>
@@ -111,11 +113,28 @@
       <find>blac</find>
       <find>ul</find>
       <find>menu-lis</find>
-      <find>menu</find>
       <find>a</find>
       <find>a:</find>
       <find>me</find>
       <find>menu-</find>
+      <find>lan</find>
+      <find>stic</find>
+      <find>.sti</find>
+      <find>bar</find>
+      <find>.row</find>
+      <find>foo</find>
+      <find>sansa</find>
+      <find>max-wid</find>
+      <find>time</find>
+      <find>imple</find>
+      <find>contact</find>
+      <find>black</find>
+      <find>576</find>
+      <find>menu</find>
+      <find>menu-poin</find>
+      <find>bottom</find>
+      <find>menu-po</find>
+      <find>list-white</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -126,30 +145,32 @@
       <list>
         <option value="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/../UnpackEventWebsite/src/Containers/App.js" />
-        <option value="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles.js" />
-        <option value="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubblesTablet.js" />
-        <option value="$PROJECT_DIR$/src/Functions/showFunction.js" />
-        <option value="$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js" />
-        <option value="$PROJECT_DIR$/src/Components/Footer/Footer.js" />
-        <option value="$PROJECT_DIR$/src/Components/Slider/Slider.js" />
-        <option value="$PROJECT_DIR$/src/Components/Contact/Contact.js" />
-        <option value="$PROJECT_DIR$/src/Containers/RestOfLayout/RestOfLayout.js" />
         <option value="$PROJECT_DIR$/src/Components/Offer/Offerts.js" />
-        <option value="$PROJECT_DIR$/src/Components/Implementation/Projects.js" />
-        <option value="$PROJECT_DIR$/src/Components/Offer/Offer.js" />
-        <option value="$PROJECT_DIR$/src/Components/Implementation/Implementation.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/Components/Header/Header.js" />
         <option value="$PROJECT_DIR$/src/Components/UnpackSection/UnpackComponent.js" />
         <option value="$PROJECT_DIR$/src/Components/SansaraGroup/SansaraGroup.js" />
-        <option value="$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js" />
-        <option value="$PROJECT_DIR$/src/Components/Header/Header.js" />
+        <option value="$PROJECT_DIR$/src/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubblesTablet.js" />
+        <option value="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles2.js" />
+        <option value="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles.js" />
+        <option value="$PROJECT_DIR$/src/Components/Slider/Slider.js" />
+        <option value="$PROJECT_DIR$/src/Components/Slider/Slider&gt;768.js" />
+        <option value="$PROJECT_DIR$/src/Components/Implementation/Projects.js" />
+        <option value="$PROJECT_DIR$/src/Components/Implementation/Implementation.js" />
+        <option value="$PROJECT_DIR$/src/Components/Offer/Offer.js" />
+        <option value="$PROJECT_DIR$/src/Containers/RestOfLayout/RestOfLayout.js" />
+        <option value="$PROJECT_DIR$/src/Components/Contact/Contact.js" />
+        <option value="$PROJECT_DIR$/src/Components/Footer/Footer.js" />
+        <option value="$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js" />
+        <option value="$PROJECT_DIR$/src/Functions/showFunction.js" />
         <option value="$PROJECT_DIR$/src/Components/MenuList/MenuList.js" />
-        <option value="$PROJECT_DIR$/src/scss/main.scss" />
         <option value="$PROJECT_DIR$/src/Components/Nav/Nav.js" />
         <option value="$PROJECT_DIR$/src/Containers/App.js" />
+        <option value="$PROJECT_DIR$/src/scss/main.scss" />
+        <option value="$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js" />
       </list>
     </option>
   </component>
@@ -183,10 +204,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-170" />
-    <option name="y" value="88" />
-    <option name="width" value="1058" />
-    <option name="height" value="554" />
+    <option name="x" value="125" />
+    <option name="y" value="250" />
+    <option name="width" value="1161" />
+    <option name="height" value="675" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -194,6 +215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,6 +238,13 @@
               <item name="unpackEventPage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unpackEventPage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unpackEventPage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="AnimationBubbles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="unpackEventPage" type="b2602c69:ProjectViewProjectNode" />
@@ -285,6 +314,13 @@
               <item name="unpackEventPage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="TiemToUnpack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unpackEventPage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unpackEventPage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="UnpackSection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -323,7 +359,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,58 +410,60 @@
       <workItem from="1543815028907" duration="79268000" />
       <workItem from="1544050662345" duration="18681000" />
       <workItem from="1544072823247" duration="6249000" />
-      <workItem from="1544079634159" duration="1798000" />
+      <workItem from="1544079634159" duration="25399000" />
+      <workItem from="1544164215545" duration="12196000" />
+      <workItem from="1544230722853" duration="47178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170862000" />
+    <option name="totallyTimeSpent" value="253837000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-170" y="88" width="1058" height="554" extended-state="0" />
+    <frame x="125" y="250" width="1161" height="675" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" order="2" sideWeight="0.11401425" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.88598573" visible="true" weight="0.25120774" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.9095941" visible="true" weight="0.2135325" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="2" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="6" />
-      <window_info id="npm" order="0" side_tool="true" />
+      <window_info id="npm" order="0" sideWeight="0.090405904" side_tool="true" visible="true" weight="0.2135325" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Thumbnails" order="11" visible="true" weight="0.0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="5" />
     </layout>
     <layout-to-restore>
-      <window_info id="Gulp" order="2" sideWeight="0.11401425" side_tool="true" visible="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.88598573" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Gulp" order="2" sideWeight="0.11401425" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.88598573" visible="true" weight="0.3139535" />
       <window_info id="npm" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Thumbnails" order="11" visible="true" weight="0.0" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info id="Favorites" order="1" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -451,20 +488,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Slider/Slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -500,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="549" column="10" selection-start-line="549" selection-start-column="10" selection-end-line="549" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Menu/BurgerMenuSide.js" />
     <entry file="file://$PROJECT_DIR$/src/Components/Rest.js" />
     <entry file="file://$PROJECT_DIR$/public/index.html">
@@ -525,9 +541,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/index.scss" />
-    <entry file="file://$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles2.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ToDoList/frontend/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-39">
@@ -552,22 +565,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Functions/showFunction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Implementation/Implementation" />
     <entry file="file://$PROJECT_DIR$/src/Components/Contact/Contact" />
-    <entry file="file://$PROJECT_DIR$/src/Components/Footer/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../UnpackEventWebsite/src/Components/Menu/BurgerMenuSide.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -579,27 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubblesTablet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -619,13 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Slider/Slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="81" column="37" lean-forward="true" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -657,20 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Implementation/Implementation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Contact/Contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="79" selection-start-line="1" selection-start-column="79" selection-end-line="1" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -685,76 +642,159 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Offer/Offer.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/UnpackSection/UnpackComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="165">
+          <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Header/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="584" column="19" selection-start-line="584" selection-start-column="19" selection-end-line="584" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubblesTablet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/SansaraGroup/SansaraGroup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Slider/Slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="102" column="26" lean-forward="true" selection-start-line="98" selection-start-column="20" selection-end-line="102" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Implementation/Projects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="60">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Containers/RestOfLayout/RestOfLayout.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/Implementation/Implementation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="180">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Offer/Offer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Contact/Contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Footer/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Slider/Slider&gt;768.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="95" column="49" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="49" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/SansaraGroup/SansaraGroup.js">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+        <state relative-caret-position="159">
+          <caret line="9706" column="4" selection-start-line="9706" selection-start-column="4" selection-end-line="9706" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/UnpackSection/UnpackComponent.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="78" column="20" lean-forward="true" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15555">
-          <caret line="1037" column="5" selection-start-line="1037" selection-start-column="5" selection-end-line="1037" selection-end-column="5" />
+        <state relative-caret-position="150">
+          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/MenuList/MenuList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Header/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Nav/Nav.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+        <state relative-caret-position="375">
+          <caret line="202" column="90" selection-start-line="202" selection-start-column="90" selection-end-line="202" selection-end-column="90" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Functions/showFunction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="86" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Containers/RestOfLayout/RestOfLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="53" column="82" selection-start-line="53" selection-start-column="82" selection-end-line="53" selection-end-column="82" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
@@ -763,11 +803,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        <state relative-caret-position="135">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="1342" column="23" lean-forward="true" selection-start-line="1342" selection-start-column="23" selection-end-line="1342" selection-end-column="23" />
         </state>
       </provider>
     </entry>

@@ -17,7 +17,8 @@ class AnimationBubblesTablet extends PureComponent  {
                              style={{
                                  height:this.props.siteMaxHeight,
                                  position:'relative',
-                                 top:-2*this.props.siteMaxHeight
+                                 top:-2*this.props.siteMaxHeight,
+                                 width:window.innerWidth
                              }}
                     >
                         <div className="container">

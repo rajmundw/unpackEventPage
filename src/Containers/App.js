@@ -14,7 +14,6 @@ class App extends Component {
     componentDidMount(){
          this.maxWidth=document.getElementsByTagName('body')[0].clientWidth
         document.getElementsByTagName('body')[0].style.width=`${this.maxWidth}px`
-        console.log(window)
     }
     componentDidUpdate(){
         if(this.state.unpackedEvent){

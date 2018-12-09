@@ -11,7 +11,10 @@ class Offer extends PureComponent {
                 <div>
                     <div className="offer container p-0" id="offer">
                         <div className='row'>
-                            <div className="col-10 offset-1">
+                            <div className="
+                            col-10 col-xl-5 col-lg-5 col-md-5
+                             offset-1 offset-xl-6 offset-lg-6 offset-md-6
+                            ">
                                 <h1>OFERTA</h1>
                                 <p>ZOBACZ CO MOŻEMY DLA CIEBIE ZROBIC I WYBIERZ RODZAJ EVENTU, KTORY CIE INTERESUJE</p>
                                 <NavLink to="/PelnaOferta"><button >ZOBACZ OFERTE</button></NavLink>

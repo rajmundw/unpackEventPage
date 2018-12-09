@@ -2,7 +2,9 @@ import React, { PureComponent } from 'react';
 import {NavLink} from 'react-router-dom'
 class Projects extends PureComponent {
 
-
+    closeProjects(){
+        document.getElementById('offer').style.marginTop="-8.3vw"
+    }
     render() {
 
         return (
@@ -11,7 +13,7 @@ class Projects extends PureComponent {
                     <div className="col-12 ">
                         Projekty
                     </div>
-                    <NavLink to="/"><button>Zamknij</button></NavLink>
+                    <NavLink to="/"><button onClick={this.closeProjects}>Zamknij</button></NavLink>
                 </div>
             </div>
         )

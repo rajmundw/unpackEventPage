@@ -8,7 +8,7 @@ import Offer from '../../Components/Offer/Offer'
 import Footer from '../../Components/Footer/Footer'
 import {BrowserRouter, Route} from 'react-router-dom'
 import Offerts from '../../Components/Offer/Offerts'
-
+import Slider2 from '../../Components/Slider/Slider>768'
 class RestOfLayout extends PureComponent {
     constructor(props){
         super()
@@ -16,20 +16,32 @@ class RestOfLayout extends PureComponent {
         }
     }
     render() {
-
+        if (window.innerWidth <= 768) {
             return (
-                <BrowserRouter>
-                    <div className="rest-of-layout container p-0">
-                        <SansaraGroup/>
-                        <Slider/>
-                        <TimeToUnpack/>
-                        <Implementation/>
+                <div className="rest-of-layout container p-0">
+                    <SansaraGroup/>
+                    <Slider/>
+                    <TimeToUnpack/>
+                    <Implementation/>
                         <Offer/>
                         <Contact/>
                         <Footer/>
-                    </div>
-                </BrowserRouter>            )
+                </div>
+            )
+        }else{
+            return (
+                <div className="rest-of-layout container p-0">
+                    <SansaraGroup/>
+                    <Slider2/>
+                    <TimeToUnpack/>
+                    <Implementation/>
+                    <Offer/>
+                    <Contact/>
+                    <Footer/>
+                </div>
+            )
         }
+    }
 }
 
 

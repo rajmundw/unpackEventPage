@@ -13,7 +13,7 @@ class UnpackComponent extends PureComponent  {
                 <div className="container unpack-container">
                     <div className="row unpack">
                         <div className="col-12">
-                            <div>GET THIS SPECIAL FEELINGS</div>
+                            <div>GET THIS SPECIAL FEELING</div>
                             <div className="unpack-div">UNPACK YOUR EVENT</div>
                             <div>
                                 <div onClick={this.props.unpackEvent} className="start-collaboration" >ZACZNIJ WSPOLPRACE</div>

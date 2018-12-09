@@ -5,7 +5,8 @@ class Nav extends PureComponent  {
         super(props)
         this.state={
             shouldMenuRender:false,
-            bottomMenuPosition:0,
+            menuHeight:0,
+            menuWidth:0,
             pageYOffset:window.pageYOffset,
             innerWidth:window.innerWidth,
             topInitialMenuPosition:0
@@ -18,7 +19,7 @@ class Nav extends PureComponent  {
     componentDidMount(){
         const topInitialPosition=document.querySelectorAll('.menu')[0].parentNode.offsetTop
 
-        if(this.state.innerWidth>576){
+        if(this.state.innerWidth>576 && this.state.innerWidth<=768){
             this.setState({
                 shouldMenuRender:true,
                 topInitialMenuPosition:topInitialPosition
@@ -40,9 +41,9 @@ class Nav extends PureComponent  {
                 && event.target.tagName!=="UL"
                 && event.target.tagName!=="A") {
 
-                if (this.state.innerWidth <= 576) {
+                if (this.state.innerWidth <= 576 ) {
                     if (this.state.topInitialMenuPosition <= window.pageYOffset) {
-
+                        console.log('touchstart')
                         document.querySelector('.menu').style.visibility = 'hidden'
                     }
                     this.setState({
@@ -51,9 +52,29 @@ class Nav extends PureComponent  {
                 }
             }
         })
+        window.addEventListener('click',(event)=>{
+                if (this.state.shouldMenuRender && !event.target.classList.contains('menu-points')
+                    && !event.target.classList.contains('menu')
+                    && !event.target.classList.contains('menu-container')
+                    && !event.target.classList.contains('bar-menu')
+                    && event.target.tagName!=="LI"
+                    && event.target.tagName!=="UL"
+                    && event.target.tagName!=="A") {
+
+                    if (this.state.innerWidth>768) {
+                        if (this.state.topInitialMenuPosition <= window.pageYOffset) {
+                            console.log('touchstart')
+                            document.querySelector('.menu').style.visibility = 'hidden'
+                        }
+                        this.setState({
+                            shouldMenuRender: false,
+                        })
+                    }
+                }
+        })
 
         window.addEventListener('scroll',()=>{
-            if(this.state.innerWidth<=576) {
+            if(this.state.innerWidth<=576 || this.state.innerWidth>768) {
                 if (this.state.shouldMenuRender) {
                     this.setState({
                         shouldMenuRender: false
@@ -90,9 +111,11 @@ class Nav extends PureComponent  {
 
                     if (!classList.contains('sticky')) {
                         document.querySelector('.menu').classList.add('sticky')
-                        document.querySelector('.menu').style.backgroundColor = 'black'
+                        if (this.state.innerWidth <= 768) {
+                            document.querySelector('.menu').style.backgroundColor = 'black'
+                        }
                     }
-                    if(document.querySelector('.menu').style.backgroundColor !== 'black'){
+                    if(this.state.innerWidth<=768 && document.querySelector('.menu').style.backgroundColor !== 'black'){
                         document.querySelector('.menu').style.backgroundColor = 'black'
                     }
                 }
@@ -118,13 +141,16 @@ class Nav extends PureComponent  {
     }
 
     showMenu(event){
+        console.log(event.target.parentElement.getBoundingClientRect())
         clearInterval(this.setInterval)
         this.interval = false
         document.querySelector('.menu').style.visibility = 'visible'
-        if(event.target.parentElement.classList.contains('menu-container') && !this.state.shouldMenuRender){
+        console.log(event.target.parentElement.getBoundingClientRect())
+        if(!this.state.shouldMenuRender){
             this.setState({
                 shouldMenuRender:true,
-                bottomMenuPosition:event.target.parentElement.getBoundingClientRect().bottom
+                menuHeight:event.target.parentElement.getBoundingClientRect().height,
+                menuWidth:event.target.parentElement.getBoundingClientRect().width
             })
         }
 
@@ -145,8 +171,8 @@ class Nav extends PureComponent  {
                 }, 1000)
             }
             this.setState({
-                    shouldMenuRender: false
-                })
+                shouldMenuRender: false
+            })
         }
 
 
@@ -165,39 +191,63 @@ class Nav extends PureComponent  {
                 document.querySelector('.menu-points').style.position = 'fixed'
                 document.querySelector('.menu-points').style.top = `${this.state.bottomMenuPosition}px`
             }
+        }else if(this.state.innerWidth>768) {
+            if (this.state.topInitialMenuPosition <= offset && !document.querySelector('.menu').classList.contains('sticky')) {
+
+                document.querySelector('.menu').classList.add('sticky')
+            }
+            if (document.querySelector('.menu-points')) {
+                document.querySelector('.menu-points').style.position = 'absolute'
+                document.querySelector('.menu-points').style.top = `0px`
+                document.querySelector('.menu-points').style.marginRight = `${this.state.menuWidth}px`
+                document.querySelectorAll('ul')[1].style.height = `${this.state.menuHeight}px`
+            }
         }
     }
 
 
     render(){
 
-            if(this.state.shouldMenuRender) {
-                console.log('true')
-                if (this.state.innerWidth<=576) {
-                    return (
-                        <nav className='menu'>
-                            <div onClick={(event) => this.showMenu(event)} className=' menu-container'>
-                                <div className="bar-menu"></div>
-                                <div className="bar-menu"></div>
-                                <div className="bar-menu"></div>
-                            </div>
-                            <div className="menu-points">
-                                <MenuList/>
-                            </div>
-                        </nav>
-                    )
-                }else if(this.state.innerWidth>576 && this.state.innerWidth<=768 ){
-                    console.log('tablet')
-                    return (
-                        <nav className='menu'>
-                            <div className="menu-points">
-                                <MenuList/>
-                            </div>
-                        </nav>)
-                }
-            }else {
-                console.log('false')
-                return(
+        if(this.state.shouldMenuRender) {
+            console.log('true')
+            if (this.state.innerWidth<=576) {
+                return (
+                    <nav className='menu'>
+                        <div onClick={(event) => this.showMenu(event)} className=' menu-container'>
+                            <div className="bar-menu"></div>
+                            <div className="bar-menu"></div>
+                            <div className="bar-menu"></div>
+                        </div>
+                        <div className="menu-points">
+                            <MenuList/>
+                        </div>
+                    </nav>
+                )
+            }else if(this.state.innerWidth>576 && this.state.innerWidth<=768 ){
+                console.log('tablet')
+                return (
+                    <nav className='menu'>
+                        <div className="menu-points">
+                            <MenuList/>
+                        </div>
+                    </nav>)
+            }else{
+                return (
+                    <nav onClick={(event) => this.showMenu(event)} className='menu'>
+                        <div className=' menu-container'>
+                            <div className="bar-menu"></div>
+                            <div className="bar-menu"></div>
+                            <div className="bar-menu"></div>
+                        </div>
+                        <div className="menu-points   menu-laptop-layout-animation">
+                            <MenuList/>
+                        </div>
+                    </nav>
+                )
+            }
+        }else {
+            console.log('false')
+            return(
                 <nav className='menu '>
                     <div onClick={(event)=>this.showMenu(event)} className=' hidden menu-container'>
                         <div className="bar-menu"></div>
@@ -205,8 +255,8 @@ class Nav extends PureComponent  {
                         <div className="bar-menu"></div>
                     </div>
                 </nav>
-                )
-            }
+            )
+        }
 
     }
 }

@@ -5,6 +5,9 @@ import {BrowserRouter, Route, NavLink} from 'react-router-dom'
 
 class Implementation extends PureComponent {
 
+    showProjects(){
+        document.getElementById('offer').style.marginTop="10vw"
+    }
     render() {
 
         return (
@@ -12,10 +15,12 @@ class Implementation extends PureComponent {
                 <div>
                     <div className="implementation container p-0" id="implementation">
                         <div className='row'>
-                            <div className="col-10 offset-1">
+                            <div className="
+                            col-10 col-xl-6 col-md-6 col-lg-6
+                            offset-1">
                                 <h1>REALIZACJA</h1>
                                 <p>NASZE PROJEKTY ZREALIZOWANE W OSTATNIM CZASIE:</p>
-                                <NavLink to="/Projekty"><button>ZOBACZ PROJEKTY</button></NavLink>
+                                <NavLink to="/Projekty"><button onClick={this.showProjects}>ZOBACZ PROJEKTY</button></NavLink>
                             </div>
                         </div>
                         <div className="row">
@@ -24,7 +29,7 @@ class Implementation extends PureComponent {
                         </div>
                     </div>
                     <div className="container p-0">
-                        <Route path='/Projekty' component={Projects} />
+                        <Route exact path='/Projekty' component={Projects} />
                     </div>
                 </div>
             </BrowserRouter>

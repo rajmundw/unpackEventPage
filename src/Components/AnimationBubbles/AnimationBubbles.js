@@ -18,13 +18,14 @@ class AnimationBubbles extends PureComponent  {
                 style={{
                     height:this.props.siteMaxHeight,
                     position:'relative',
-                    top:-2*this.props.siteMaxHeight
+                    top:-2*this.props.siteMaxHeight,
+                    width:'100%'
                 }}
                 >
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-12 bubbles-parent">
-                                <img src={Background}/>
+                    <div className="container pr-0 pl-0 pr0">
+                        <div className="row mr-0">
+                            <div className="col-12 bubbles-parent pr-0">
+                                <img style={{"z-index":2}} src={Background}/>
 
                             </div>
                         </div>
