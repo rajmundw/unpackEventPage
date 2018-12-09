@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/unpackEventPage/static/media/offer_background.e1eda469.png"
   },
   {
-    "revision": "ce9b68f1682f60b11aaf",
+    "revision": "906ed46836394515f389",
     "url": "/unpackEventPage/static/css/main.33971890.chunk.css"
   },
   {
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/unpackEventPage/static/media/contact_background.345e184c.png"
   },
   {
-    "revision": "ce9b68f1682f60b11aaf",
-    "url": "/unpackEventPage/static/js/main.ce9b68f1.chunk.js"
+    "revision": "906ed46836394515f389",
+    "url": "/unpackEventPage/static/js/main.906ed468.chunk.js"
   },
   {
     "revision": "9ca7f9d41f3654889eb0279e9620d34e",
@@ -88,6 +88,10 @@ self.__precacheManifest = [
     "url": "/unpackEventPage/static/media/fontello.efc13bb9.eot"
   },
   {
+    "revision": "0019a4e4ef68a2d0577b0c351c90b8c5",
+    "url": "/unpackEventPage/static/media/fontello.0019a4e4.woff2"
+  },
+  {
     "revision": "d7790aa86811b52e0a77e624c1578d92",
     "url": "/unpackEventPage/static/media/fontello.d7790aa8.woff"
   },
@@ -96,15 +100,11 @@ self.__precacheManifest = [
     "url": "/unpackEventPage/static/media/fontello.86f0d601.ttf"
   },
   {
-    "revision": "0019a4e4ef68a2d0577b0c351c90b8c5",
-    "url": "/unpackEventPage/static/media/fontello.0019a4e4.woff2"
-  },
-  {
     "revision": "d842d5dcb65e9cbf8fa0c3711b88a388",
     "url": "/unpackEventPage/static/media/fontello.d842d5dc.svg"
   },
   {
-    "revision": "a038294707719f24a6b5368ad6971a10",
+    "revision": "cddbe4c62b8b1d712cbd2c2c477e4256",
     "url": "/unpackEventPage/index.html"
   }
 ];

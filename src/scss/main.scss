@@ -981,6 +981,7 @@ header {
           align-items: center;
           .icon-instagram{
             font-size: 4vw;
+            margin-top: -0.3vw !important;
           }
           .icon-facebook-squared{
             font-size: 4vw;
@@ -1002,6 +1003,9 @@ header {
   }
 
 }
+
+
+
 
 
 @media (min-width: 576px) and (max-width: 768px) {

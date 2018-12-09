@@ -1,7 +1,7 @@
 {
   "main.css": "/unpackEventPage/static/css/main.33971890.chunk.css",
-  "main.js": "/unpackEventPage/static/js/main.ce9b68f1.chunk.js",
-  "main.js.map": "/unpackEventPage/static/js/main.ce9b68f1.chunk.js.map",
+  "main.js": "/unpackEventPage/static/js/main.906ed468.chunk.js",
+  "main.js.map": "/unpackEventPage/static/js/main.906ed468.chunk.js.map",
   "static/js/1.c9cd0ff6.chunk.js": "/unpackEventPage/static/js/1.c9cd0ff6.chunk.js",
   "static/js/1.c9cd0ff6.chunk.js.map": "/unpackEventPage/static/js/1.c9cd0ff6.chunk.js.map",
   "runtime~main.js": "/unpackEventPage/static/js/runtime~main.15d7e7a7.js",
@@ -26,6 +26,6 @@
   "static/media/fontello.css": "/unpackEventPage/static/media/fontello.d842d5dc.svg",
   "static/css/main.33971890.chunk.css.map": "/unpackEventPage/static/css/main.33971890.chunk.css.map",
   "index.html": "/unpackEventPage/index.html",
-  "precache-manifest.754c60325c3e06b9b86b14c1ff3e2cba.js": "/unpackEventPage/precache-manifest.754c60325c3e06b9b86b14c1ff3e2cba.js",
+  "precache-manifest.2e29ad679d637bc5827ebef1a727c262.js": "/unpackEventPage/precache-manifest.2e29ad679d637bc5827ebef1a727c262.js",
   "service-worker.js": "/unpackEventPage/service-worker.js"
 }
