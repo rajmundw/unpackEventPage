@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/unpackEventPage/static/media/offer_background.e1eda469.png"
   },
   {
-    "revision": "906ed46836394515f389",
-    "url": "/unpackEventPage/static/css/main.33971890.chunk.css"
+    "revision": "0a1aeac183002c1cdfdf",
+    "url": "/unpackEventPage/static/css/main.da6f2d5a.chunk.css"
   },
   {
     "revision": "c9cd0ff6cbe5ffe8f2b2",
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/unpackEventPage/static/media/contact_background.345e184c.png"
   },
   {
-    "revision": "906ed46836394515f389",
-    "url": "/unpackEventPage/static/js/main.906ed468.chunk.js"
+    "revision": "0a1aeac183002c1cdfdf",
+    "url": "/unpackEventPage/static/js/main.0a1aeac1.chunk.js"
   },
   {
     "revision": "9ca7f9d41f3654889eb0279e9620d34e",
@@ -76,24 +76,16 @@ self.__precacheManifest = [
     "url": "/unpackEventPage/static/media/bubbles2.c64f25df.png"
   },
   {
-    "revision": "06b47637b9d8017be1fda29ace11f262",
-    "url": "/unpackEventPage/static/media/background.06b47637.png"
-  },
-  {
     "revision": "0f8c73190e5030254b30bd1ec6233b54",
     "url": "/unpackEventPage/static/media/background>768.0f8c7319.png"
   },
   {
+    "revision": "06b47637b9d8017be1fda29ace11f262",
+    "url": "/unpackEventPage/static/media/background.06b47637.png"
+  },
+  {
     "revision": "efc13bb9d5b2429a746eb8d729bbe580",
     "url": "/unpackEventPage/static/media/fontello.efc13bb9.eot"
-  },
-  {
-    "revision": "0019a4e4ef68a2d0577b0c351c90b8c5",
-    "url": "/unpackEventPage/static/media/fontello.0019a4e4.woff2"
-  },
-  {
-    "revision": "d7790aa86811b52e0a77e624c1578d92",
-    "url": "/unpackEventPage/static/media/fontello.d7790aa8.woff"
   },
   {
     "revision": "86f0d601dfaea3e4f37edce8cf31c932",
@@ -104,7 +96,15 @@ self.__precacheManifest = [
     "url": "/unpackEventPage/static/media/fontello.d842d5dc.svg"
   },
   {
-    "revision": "cddbe4c62b8b1d712cbd2c2c477e4256",
+    "revision": "d7790aa86811b52e0a77e624c1578d92",
+    "url": "/unpackEventPage/static/media/fontello.d7790aa8.woff"
+  },
+  {
+    "revision": "0019a4e4ef68a2d0577b0c351c90b8c5",
+    "url": "/unpackEventPage/static/media/fontello.0019a4e4.woff2"
+  },
+  {
+    "revision": "4b7363232b8931619f703a05898a00fb",
     "url": "/unpackEventPage/index.html"
   }
 ];
