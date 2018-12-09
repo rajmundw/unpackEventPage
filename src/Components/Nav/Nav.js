@@ -9,7 +9,8 @@ class Nav extends PureComponent  {
             menuWidth:0,
             pageYOffset:window.pageYOffset,
             innerWidth:window.innerWidth,
-            topInitialMenuPosition:0
+            topInitialMenuPosition:0,
+            menuBottomPosition:0
         }
         this.pageYOffset=0
         this.interval=false
@@ -150,7 +151,8 @@ class Nav extends PureComponent  {
             this.setState({
                 shouldMenuRender:true,
                 menuHeight:event.target.parentElement.getBoundingClientRect().height,
-                menuWidth:event.target.parentElement.getBoundingClientRect().width
+                menuWidth:event.target.parentElement.getBoundingClientRect().width,
+                menuBottomPosition:event.target.parentElement.getBoundingClientRect().bottom
             })
         }
 
@@ -189,7 +191,7 @@ class Nav extends PureComponent  {
             }
             if (document.querySelector('.menu-points')) {
                 document.querySelector('.menu-points').style.position = 'fixed'
-                document.querySelector('.menu-points').style.top = `${this.state.bottomMenuPosition}px`
+                document.querySelector('.menu-points').style.top = `${this.state.menuBottomPosition}px`
             }
         }else if(this.state.innerWidth>768) {
             if (this.state.topInitialMenuPosition <= offset && !document.querySelector('.menu').classList.contains('sticky')) {

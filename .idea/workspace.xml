@@ -2,40 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71316c36-f37f-4079-8c4d-8d79ebc743f5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Slider/Slider&gt;768.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.7b438ff362ed475f30d6fe219262d9ae.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.e8ae8aaec84e5d08fda49f8c93dee1f2.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.964c1948.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.964c1948.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.f9aafe91.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.f9aafe91.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubblesTablet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubblesTablet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Implementation/Implementation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Implementation/Implementation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Implementation/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Implementation/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MenuList/MenuList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MenuList/MenuList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.0c736b33.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.0c736b33.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/1.4e564b50.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/1.4e564b50.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.fe4bdd49.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.fe4bdd49.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/background.c583ad4c.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Nav/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Offer/Offer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Offer/Offer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SansaraGroup/SansaraGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SansaraGroup/SansaraGroup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Slider/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slider/Slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/UnpackSection/UnpackComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UnpackSection/UnpackComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/RestOfLayout/RestOfLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/RestOfLayout/RestOfLayout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Functions/showFunction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/showFunction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backgroundElements/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/backgroundElements/background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backgroundElements/bubbles.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/backgroundElements/bubbles.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,7 +43,7 @@
       <file leaf-file-name="InitialLayout.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="-80">
               <caret line="53" column="82" selection-start-line="53" selection-start-column="82" selection-end-line="53" selection-end-column="82" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
@@ -73,11 +52,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="1342" column="23" lean-forward="true" selection-start-line="1342" selection-start-column="23" selection-end-line="1342" selection-end-column="23" />
+              <caret line="1342" column="23" selection-start-line="1342" selection-start-column="23" selection-end-line="1342" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Nav.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/Nav/Nav.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="193" column="99" selection-start-line="193" selection-start-column="99" selection-end-line="193" selection-end-column="99" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,10 +158,10 @@
         <option value="$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js" />
         <option value="$PROJECT_DIR$/src/Functions/showFunction.js" />
         <option value="$PROJECT_DIR$/src/Components/MenuList/MenuList.js" />
-        <option value="$PROJECT_DIR$/src/Components/Nav/Nav.js" />
         <option value="$PROJECT_DIR$/src/Containers/App.js" />
         <option value="$PROJECT_DIR$/src/scss/main.scss" />
         <option value="$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js" />
+        <option value="$PROJECT_DIR$/src/Components/Nav/Nav.js" />
       </list>
     </option>
   </component>
@@ -412,22 +403,22 @@
       <workItem from="1544072823247" duration="6249000" />
       <workItem from="1544079634159" duration="25399000" />
       <workItem from="1544164215545" duration="12196000" />
-      <workItem from="1544230722853" duration="47178000" />
+      <workItem from="1544230722853" duration="48067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253837000" />
+    <option name="totallyTimeSpent" value="254726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="125" y="250" width="1161" height="675" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" order="2" sideWeight="0.11401425" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.9095941" visible="true" weight="0.2135325" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.9095941" visible="true" weight="0.2135325" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="2" side_tool="true" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info id="npm" order="0" sideWeight="0.090405904" side_tool="true" visible="true" weight="0.2135325" />
@@ -764,16 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Nav/Nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="202" column="90" selection-start-line="202" selection-start-column="90" selection-end-line="202" selection-end-column="90" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Functions/showFunction.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -791,16 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="53" column="82" selection-start-line="53" selection-start-column="82" selection-end-line="53" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -814,7 +785,27 @@
     <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="1342" column="23" lean-forward="true" selection-start-line="1342" selection-start-column="23" selection-end-line="1342" selection-end-column="23" />
+          <caret line="1342" column="23" selection-start-line="1342" selection-start-column="23" selection-end-line="1342" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="53" column="82" selection-start-line="53" selection-start-column="82" selection-end-line="53" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Nav/Nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="193" column="99" selection-start-line="193" selection-start-column="99" selection-end-line="193" selection-end-column="99" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
