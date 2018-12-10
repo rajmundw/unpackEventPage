@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71316c36-f37f-4079-8c4d-8d79ebc743f5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.1345276b4733e4923e8f8d3576ce6872.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.da6f2d5a.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.da6f2d5a.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/1.c9cd0ff6.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/1.c9cd0ff6.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.0a1aeac1.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.0a1aeac1.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime~main.15d7e7a7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime~main.15d7e7a7.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/background.06b47637.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/background&gt;768.0f8c7319.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/box2.8387d001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/bubbles-tablet.f0a014ad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/bubbles.d28c4b1e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/bubbles2.c64f25df.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/contact_background.345e184c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/countdown.15448cc7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/down_box.9ca7f9d4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/enthusiasm.46c6d5ac.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/fontello.0019a4e4.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/fontello.86f0d601.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/fontello.d7790aa8.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/fontello.d842d5dc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/fontello.efc13bb9.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/offer_background.e1eda469.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/recognition.4a9a3556.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/rise_body.dde2a58a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/sansara_group.74e9069d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/save.981b2bad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/succeed.d77a62c3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/work_comfort.5d58591d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,11 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InitialLayout.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-514">
-              <caret line="2166" column="11" selection-start-line="2166" selection-start-column="11" selection-end-line="2166" selection-end-column="11" />
+            <state>
+              <caret line="2199" column="13" selection-start-line="2199" selection-start-column="13" selection-end-line="2199" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -323,10 +298,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266776000" />
+    <option name="totallyTimeSpent" value="267049000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="120" y="83" width="1159" height="675" extended-state="1" />
+    <frame x="120" y="83" width="1159" height="675" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" order="2" sideWeight="0.11401425" side_tool="true" weight="0.25" />
@@ -691,16 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="50" column="69" selection-start-line="50" selection-start-column="69" selection-end-line="50" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -721,6 +686,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2199" column="13" selection-start-line="2199" selection-start-column="13" selection-end-line="2199" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -728,10 +700,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
+    <entry file="file://$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-514">
-          <caret line="2166" column="11" selection-start-line="2166" selection-start-column="11" selection-end-line="2166" selection-end-column="11" />
+        <state relative-caret-position="105">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
         </state>
       </provider>
     </entry>
