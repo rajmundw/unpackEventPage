@@ -2,7 +2,9 @@ import React, { PureComponent } from 'react';
 import {NavLink} from 'react-router-dom'
 class Projects extends PureComponent {
 
+    // on click "zamnij" function
     closeProjects(){
+        // setting initial margit top for offer component
         document.getElementById('offer').style.marginTop="-8.3vw"
     }
     render() {

@@ -14,6 +14,7 @@ class Slider2 extends PureComponent {
 
     }
     componentWillUpdate(){
+        // adding padding right to "misja" element
         if(this.state.slideNumber===2) {
             if (document.querySelector('.slide1').style.paddingRight !== '2.8vw') {
                 document.querySelector('.slide1').style.paddingRight = '2.8vw'
@@ -21,6 +22,7 @@ class Slider2 extends PureComponent {
         }
 }
     componentDidUpdate(){
+        // slider animation after updating
         setTimeout(()=> {
             if(this.state.slideNumber===2){
                 document.querySelector('.slide1').style.position='absolute'
@@ -37,10 +39,13 @@ class Slider2 extends PureComponent {
             document.querySelector('.slide2').classList.remove('slider-animation')
         },1000)
     }
+
+    // function on click
     changeSlide(){
-        console.log(document.querySelectorAll('.slider')[0].getBoundingClientRect().height)
+       // adding animations
         document.querySelector('.slide1').classList.add('slider-animation')
         document.querySelector('.slide2').classList.add('slider-animation')
+        // set innerText it depends on active slid number
         if(this.state.slideNumber===1){
             setTimeout(()=>{
                 document.querySelector('.mission').innerHTML='02 WIZJA'

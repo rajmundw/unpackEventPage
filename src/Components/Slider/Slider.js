@@ -13,13 +13,17 @@ class Slider extends PureComponent {
         this.sliderWidth=0
 
     }
+
+
     componentDidMount(){
             const el = document.querySelector('.slide-1')
             const el2 = document.querySelector('.slide-2')
+
+        //slider width to get to know 50% width to changing active slide
             this.sliderWidth = document.querySelectorAll('.slide-1')[0].clientWidth
             document.querySelector('.mission').classList.add('active')
 
-
+        //add on touch start event
             el.addEventListener("touchstart", (event) => {
                 this.initialPosition = event.changedTouches[0].clientX
             })
@@ -27,6 +31,7 @@ class Slider extends PureComponent {
                 this.initialPosition = event.changedTouches[0].clientX
             })
 
+        // add event to movment simulation
             el.addEventListener('touchmove', (event) => {
                 console.log(event.changedTouches[0].clientX)
                 if (this.initialPosition - event.changedTouches[0].clientX < 0) {
@@ -41,6 +46,8 @@ class Slider extends PureComponent {
                     el2.style.transform = `translateX(${this.sliderWidth - (this.initialPosition - event.changedTouches[0].clientX)}px)`
                 }
             })
+
+        // add event to touch end to get to know that actvie slide has to changed
 
             el.addEventListener("touchend", (event) => {
                 this.endPosition = event.changedTouches[0].clientX

@@ -15,7 +15,7 @@ class UnpackComponent extends PureComponent  {
                         <div className="col-12">
                             <div>GET THIS SPECIAL FEELING</div>
                             <div className="unpack-div">UNPACK YOUR EVENT</div>
-                            <div>
+                            <div> {/*props from initialLayout component*/}
                                 <div onClick={this.props.unpackEvent} className="start-collaboration" >ZACZNIJ WSPOLPRACE</div>
                             </div>
                             <div className="pack">

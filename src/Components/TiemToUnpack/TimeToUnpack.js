@@ -25,6 +25,8 @@ class TimeToUnpack extends PureComponent {
         this.restOfLayoutOffset=''
     }
     componentDidMount(){
+
+        // animation elemets
     this.workComfortDiv=document.querySelectorAll('.work-comfort-row')[0]
     this.saveDiv=document.querySelectorAll('.work-comfort-row')[1]
     this.recignitionDiv=document.querySelectorAll('.work-comfort-row')[2]
@@ -32,8 +34,9 @@ class TimeToUnpack extends PureComponent {
     this.enthusiasmDiv=document.querySelectorAll('.work-comfort-row')[4]
     this.succeedDiv=document.querySelectorAll('.work-comfort-row')[5]
 
+        // timeout to load page
         setTimeout(()=>{
-            this.restOfLayoutOffset=document.querySelectorAll('.rest-of-layout')[0].offsetTop
+         // function on scroll
             window.addEventListener('scroll',()=>{
                 showFunction(this.workComfortDiv,this.restOfLayoutOffset)
                 showFunction(this.saveDiv,this.restOfLayoutOffset)

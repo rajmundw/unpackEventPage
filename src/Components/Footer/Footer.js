@@ -11,6 +11,7 @@ class Footer extends PureComponent {
     }
     componentDidMount(){
 
+        // to get to know current browser width
         window.addEventListener('resize',()=>{
             this.setState({
                 innerWidth:window.innerWidth
@@ -20,12 +21,14 @@ class Footer extends PureComponent {
     }
 
     shouldComponentUpdate(nextProps,nextState){
+        // should render during resize layout beetween tablet and laptop
         if( (nextState.innerWidth>768 && this.state.innerWidth<=768) ||
             (nextState.innerWidth<=768 && this.state.innerWidth>768)) {
             return true
         }
     }
     render() {
+        // for laptop layout
         if(window.innerWidth>768) {
             return(
                 <footer className="footer container p-0">
@@ -49,7 +52,8 @@ class Footer extends PureComponent {
                     </div>
                 </footer>
             )
-        }else {
+        }// for mobile/tablet layout
+        else {
             return (
                 <footer className="footer container p-0">
                     <div className='row'>

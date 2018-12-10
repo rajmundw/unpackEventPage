@@ -1,6 +1,9 @@
 import React, {PureComponent} from 'react'
 import leftNavBar from '../../backgroundElements/rise_nav.png'
 import Nav from '../Nav/Nav'
+
+
+// element with social media rise img language and navigation
 class Header extends PureComponent  {
     render(){
         return(

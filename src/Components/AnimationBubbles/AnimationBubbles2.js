@@ -1,6 +1,8 @@
 import React, {PureComponent} from 'react'
 import {Transition} from 'react-transition-group'
 import Background2 from '../../backgroundElements/bubbles2.png'
+
+// this same as animation bubbles but z index other
 class AnimationBubbles2 extends PureComponent  {
     componentDidUpdate(){
         if(window.innerWidth>768){

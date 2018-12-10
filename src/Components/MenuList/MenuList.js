@@ -2,11 +2,13 @@ import React, { PureComponent } from 'react';
 class MenuList extends PureComponent {
 
     componentDidMount() {
+        // adding white list class when initial menu position is bigger then offset
         if (this.props.topInitialMenuPosition > window.pageYOffset) {
             document.querySelector('.menu-list').classList.add('menu-list-white')
         }
     }
     render() {
+        // for mobile layout render menu list elements wiht other animations
         if(window.outerWidth<=576){
             return (
                 <div className="menu-list container p-0">

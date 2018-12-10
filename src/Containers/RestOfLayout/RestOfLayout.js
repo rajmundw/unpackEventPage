@@ -18,6 +18,7 @@ class RestOfLayout extends PureComponent {
     }
     componentDidMount(){
 
+        // set state to get to know current width
         window.addEventListener('resize',()=>{
             this.setState({
                 innerWidth:window.innerWidth
@@ -26,6 +27,7 @@ class RestOfLayout extends PureComponent {
 
     }
 
+    // cases when component should update only for changing laptop and tablet layout beacuse is other slider
     shouldComponentUpdate(nextProps,nextState){
         if( (nextState.innerWidth>768 && this.state.innerWidth<=768) ||
             (nextState.innerWidth<=768 && this.state.innerWidth>768)) {
@@ -33,6 +35,7 @@ class RestOfLayout extends PureComponent {
         }
     }
     render() {
+        // slider for mobile/tablet layout and rest of elements
         if (window.innerWidth <= 768) {
             return (
                 <div className="rest-of-layout container p-0">
@@ -45,7 +48,8 @@ class RestOfLayout extends PureComponent {
                         <Footer/>
                 </div>
             )
-        }else{
+        }// slider for laptop layout and other elements
+        else{
             return (
                 <div className="rest-of-layout container p-0">
                     <SansaraGroup/>

@@ -6,6 +6,7 @@ import {BrowserRouter, Route, NavLink} from 'react-router-dom'
 class Implementation extends PureComponent {
 
     showProjects(){
+        // adding margin top for laptop layout
         if(window.innerWidth>768) {
             document.getElementById('offer').style.marginTop = "10vw"
         }
