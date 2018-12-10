@@ -23,6 +23,12 @@ class Slider extends PureComponent {
             this.sliderWidth = document.querySelectorAll('.slide-1')[0].clientWidth
             document.querySelector('.mission').classList.add('active')
 
+        // on risize updateing slider width
+        window.addEventListener('resize',()=>{
+            this.sliderWidth = document.querySelectorAll('.slide-1')[0].clientWidth
+        })
+
+
         //add on touch start event
             el.addEventListener("touchstart", (event) => {
                 this.initialPosition = event.changedTouches[0].clientX
