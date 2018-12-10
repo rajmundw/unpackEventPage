@@ -1,7 +1,17 @@
 import React, {PureComponent} from 'react'
 import {Transition} from 'react-transition-group'
 import Background from '../../backgroundElements/bubbles.png'
+import BackgroundTablet from '../../backgroundElements/bubbles-tablet.png'
+
 class AnimationBubbles extends PureComponent  {
+
+    componentDidUpdate(){
+        if(window.innerWidth>768){
+            document.querySelector('.bubbles-img-1').setAttribute('src',`${Background}`)
+        }else{
+            document.querySelector('.bubbles-img-1').setAttribute('src',`${BackgroundTablet}`)
+        }
+    }
     render(){
 
         console.log(this.props.shouldAnimated,'props', this.props.siteMaxHeight,'aaa')
@@ -25,7 +35,7 @@ class AnimationBubbles extends PureComponent  {
                     <div className="container pr-0 pl-0 pr0">
                         <div className="row mr-0">
                             <div className="col-12 bubbles-parent pr-0">
-                                <img style={{"z-index":2}} src={Background}/>
+                                <img className="bubbles-img-1" style={{"z-index":2}}/>
 
                             </div>
                         </div>

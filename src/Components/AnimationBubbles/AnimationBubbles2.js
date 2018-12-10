@@ -2,6 +2,13 @@ import React, {PureComponent} from 'react'
 import {Transition} from 'react-transition-group'
 import Background2 from '../../backgroundElements/bubbles2.png'
 class AnimationBubbles2 extends PureComponent  {
+    componentDidUpdate(){
+        if(window.innerWidth>768){
+            document.querySelector('.bubbles-img-2').setAttribute('src',`${Background2}`)
+        }else{
+            document.querySelector('.bubbles-img-2').setAttribute('src','')
+        }
+    }
     render(){
         console.log('bubbles')
         return(
@@ -24,7 +31,7 @@ class AnimationBubbles2 extends PureComponent  {
                         <div className="container pr-0">
                             <div className="row mr-0">
                                 <div className="col-12 bubbles-parent pr-0 bubbles-parent-2">
-                                    <img src={Background2}/>
+                                    <img className="bubbles-img-2" />
                                 </div>
                             </div>
                         </div>

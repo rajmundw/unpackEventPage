@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 class MenuList extends PureComponent {
 
     componentDidMount() {
-        if (window.innerWidth * 0.16 > window.pageYOffset) {
+        if (this.props.topInitialMenuPosition > window.pageYOffset) {
             document.querySelector('.menu-list').classList.add('menu-list-white')
         }
     }

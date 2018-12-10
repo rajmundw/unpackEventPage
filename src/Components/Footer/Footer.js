@@ -3,7 +3,28 @@ import FooterBackground from '../../backgroundElements/down_box.png'
 import RiseDown from '../../backgroundElements/rise_footer.png'
 import FooterGroup from '../../backgroundElements/foter_group.png'
 class Footer extends PureComponent {
+    constructor(props){
+        super()
+        this.state={
+            innerWidth:window.innerWidth
+        }
+    }
+    componentDidMount(){
 
+        window.addEventListener('resize',()=>{
+            this.setState({
+                innerWidth:window.innerWidth
+            })
+        })
+
+    }
+
+    shouldComponentUpdate(nextProps,nextState){
+        if( (nextState.innerWidth>768 && this.state.innerWidth<=768) ||
+            (nextState.innerWidth<=768 && this.state.innerWidth>768)) {
+            return true
+        }
+    }
     render() {
         if(window.innerWidth>768) {
             return(

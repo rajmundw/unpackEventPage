@@ -6,7 +6,9 @@ import {BrowserRouter, Route, NavLink} from 'react-router-dom'
 class Implementation extends PureComponent {
 
     showProjects(){
-        document.getElementById('offer').style.marginTop="10vw"
+        if(window.innerWidth>768) {
+            document.getElementById('offer').style.marginTop = "10vw"
+        }
     }
     render() {
 

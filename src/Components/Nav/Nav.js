@@ -10,7 +10,9 @@ class Nav extends PureComponent  {
             pageYOffset:window.pageYOffset,
             innerWidth:window.innerWidth,
             topInitialMenuPosition:0,
-            menuBottomPosition:0
+            menuBottomPosition:0,
+            innerWidth:window.innerWidth
+
         }
         this.pageYOffset=0
         this.interval=false
@@ -18,7 +20,8 @@ class Nav extends PureComponent  {
     }
 
     componentDidMount(){
-        const topInitialPosition=document.querySelectorAll('.menu')[0].parentNode.offsetTop
+        let topInitialPosition=document.querySelectorAll('.menu')[0].parentNode.offsetTop
+        this.pageYOffset=window.pageYOffset
 
         if(this.state.innerWidth>576 && this.state.innerWidth<=768){
             this.setState({
@@ -31,8 +34,15 @@ class Nav extends PureComponent  {
             })
         }
 
-        this.pageYOffset=window.pageYOffset
+        window.addEventListener('resize', ()=>{
+            let topInitialPosition=document.querySelectorAll('.menu')[0].parentNode.offsetTop
 
+            this.setState({
+                topInitialMenuPosition:topInitialPosition,
+                innerWidth:window.innerWidth,
+                shouldMenuRender:false,
+            })
+        })
         window.addEventListener('touchstart',(event)=> {
             if (this.state.shouldMenuRender && !event.target.classList.contains('menu-points')
                 && !event.target.classList.contains('menu')
@@ -141,6 +151,30 @@ class Nav extends PureComponent  {
         })
     }
 
+    shouldComponentUpdate(nextProps,nextState){
+        if(nextState.shouldMenuRender!==this.state.shouldMenuRender ||
+            (nextState.innerWidth>768 && this.state.innerWidth<=768) ||
+            (nextState.innerWidth<=768 && this.state.innerWidth>768) ||
+            (nextState.innerWidth>576 && this.state.innerWidth<=576) ||
+            (nextState.innerWidth<=576 && this.state.innerWidth>576) ||
+            (nextState.innerWidth>768 && this.state.innerWidth<=576) ||
+            (nextState.innerWidth<=576 && this.state.innerWidth>768)
+        ){
+            console.log('aaaaa',this.state.innerWidth,nextState.innerWidth)
+
+            if((nextState.innerWidth<=576 && this.state.innerWidth>576) ||
+                (nextState.innerWidth>768 && this.state.innerWidth<=768)){
+                console.log("this")
+                this.setState({
+                    shouldMenuRender:false
+                })
+            }
+            return true
+        }else{
+            return false
+        }
+    }
+
     showMenu(event){
         console.log(event.target.parentElement.getBoundingClientRect())
         clearInterval(this.setInterval)
@@ -180,10 +214,20 @@ class Nav extends PureComponent  {
 
     }
     componentDidUpdate(){
-
-        console.log(this.state)
-
+        let topInitialPosition=document.querySelectorAll('.menu')[0].parentNode.offsetTop
         let offset = window.pageYOffset
+
+        if(this.state.innerWidth>768 && document.querySelector('.menu').style.backgroundColor == 'black'){
+            document.querySelector('.menu').style.backgroundColor = 'transparent'
+        }
+
+        if(this.state.innerWidth>576 && this.state.innerWidth<=768){
+            this.setState({
+                shouldMenuRender:true,
+                topInitialMenuPosition:topInitialPosition
+            })
+        }
+
         if(this.state.innerWidth<=576) {
             if (this.state.topInitialMenuPosition <= offset && !document.querySelector('.menu').classList.contains('sticky')) {
 
@@ -221,7 +265,7 @@ class Nav extends PureComponent  {
                             <div className="bar-menu"></div>
                         </div>
                         <div className="menu-points">
-                            <MenuList/>
+                            <MenuList topInitialMenuPosition={this.state.topInitialMenuPosition}/>
                         </div>
                     </nav>
                 )
@@ -230,7 +274,7 @@ class Nav extends PureComponent  {
                 return (
                     <nav className='menu'>
                         <div className="menu-points">
-                            <MenuList/>
+                            <MenuList topInitialMenuPosition={this.state.topInitialMenuPosition}/>
                         </div>
                     </nav>)
             }else{
@@ -242,7 +286,7 @@ class Nav extends PureComponent  {
                             <div className="bar-menu"></div>
                         </div>
                         <div className="menu-points   menu-laptop-layout-animation">
-                            <MenuList/>
+                            <MenuList topInitialMenuPosition={this.state.topInitialMenuPosition}/>
                         </div>
                     </nav>
                 )

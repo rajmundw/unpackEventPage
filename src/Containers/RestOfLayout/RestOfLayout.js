@@ -13,6 +13,23 @@ class RestOfLayout extends PureComponent {
     constructor(props){
         super()
         this.state={
+            innerWidth:window.innerWidth
+        }
+    }
+    componentDidMount(){
+
+        window.addEventListener('resize',()=>{
+            this.setState({
+                innerWidth:window.innerWidth
+            })
+        })
+
+    }
+
+    shouldComponentUpdate(nextProps,nextState){
+        if( (nextState.innerWidth>768 && this.state.innerWidth<=768) ||
+            (nextState.innerWidth<=768 && this.state.innerWidth>768)) {
+            return true
         }
     }
     render() {

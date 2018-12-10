@@ -789,7 +789,6 @@ header {
         margin: auto;
       }
       position: relative;
-      margin-top: 10vw;
       margin-right: 0px;
       margin-left: 0px;
 
@@ -1002,6 +1001,11 @@ header {
     font-size: 12px !important;
   }
 
+}
+@media (max-width: 576px) {
+  .offer {
+    margin-top: 10vw !important;
+  }
 }
 
 
@@ -1258,6 +1262,7 @@ header {
     }
     //offer
     .offer {
+      margin-top: 10vw!important;
       .row {
         padding-right: 10vw;
         padding-left: 10vw;
