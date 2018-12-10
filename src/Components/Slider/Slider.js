@@ -25,7 +25,9 @@ class Slider extends PureComponent {
 
         // on risize updateing slider width
         window.addEventListener('resize',()=>{
-            this.sliderWidth = document.querySelectorAll('.slide-1')[0].clientWidth
+            if(document.querySelectorAll('.slide-1')[0]) {
+                this.sliderWidth = document.querySelectorAll('.slide-1')[0].clientWidth
+            }
         })
 
 

@@ -5,15 +5,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.49266e46721e8c64f6895355f3591b8b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.fe85f0e7a4e6366d7c8d98cc790b864b.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.1496c05f.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.1496c05f.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/1.a916d7ca.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/1.a916d7ca.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.61f34201.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.61f34201.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.a3086136.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.a3086136.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.d8fab8ee.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.d8fab8ee.chunk.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Slider/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slider/Slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
@@ -29,20 +28,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="596">
+              <caret line="2222" column="1" selection-start-line="2222" selection-start-column="1" selection-end-line="2222" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Slider.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Nav.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Nav/Nav.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2021">
+              <caret line="336" column="113" selection-start-line="336" selection-start-column="113" selection-end-line="336" selection-end-column="113" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestOfLayout.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Containers/RestOfLayout/RestOfLayout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Slider.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/Slider/Slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+            <state relative-caret-position="210">
+              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -118,13 +141,13 @@
         <option value="$PROJECT_DIR$/src/Components/Footer/Footer.js" />
         <option value="$PROJECT_DIR$/src/Components/Implementation/Implementation.js" />
         <option value="$PROJECT_DIR$/src/Components/Implementation/Projects.js" />
-        <option value="$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js" />
         <option value="$PROJECT_DIR$/src/Functions/showFunction.js" />
         <option value="$PROJECT_DIR$/src/Components/Slider/Slider&gt;768.js" />
         <option value="$PROJECT_DIR$/src/Containers/RestOfLayout/RestOfLayout.js" />
         <option value="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles.js" />
-        <option value="$PROJECT_DIR$/src/Components/Slider/Slider.js" />
+        <option value="$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js" />
         <option value="$PROJECT_DIR$/src/scss/main.scss" />
+        <option value="$PROJECT_DIR$/src/Components/Slider/Slider.js" />
       </list>
     </option>
   </component>
@@ -142,9 +165,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="97" />
-    <option name="y" value="115" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="205" />
+    <option name="y" value="67" />
     <option name="width" value="1161" />
     <option name="height" value="676" />
   </component>
@@ -204,6 +227,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="Slider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unpackEventPage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unpackEventPage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="TiemToUnpack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unpackEventPage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unpackEventPage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unpackEventPage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unpackEventPage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Containers" type="462c0819:PsiDirectoryNode" />
+              <item name="RestOfLayout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="unpackEventPage" type="b2602c69:ProjectViewProjectNode" />
@@ -281,10 +324,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278470000" />
+    <option name="totallyTimeSpent" value="280935000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="97" y="115" width="1161" height="676" extended-state="0" />
+    <frame x="205" y="67" width="1161" height="676" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -606,27 +649,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="70" column="22" lean-forward="true" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Slider/Slider&gt;768.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="111" column="23" lean-forward="true" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Containers/RestOfLayout/RestOfLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
@@ -650,16 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Nav/Nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="336" column="113" selection-start-line="336" selection-start-column="113" selection-end-line="336" selection-end-column="113" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -677,17 +693,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Slider/Slider.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/Nav/Nav.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        <state relative-caret-position="2021">
+          <caret line="336" column="113" selection-start-line="336" selection-start-column="113" selection-end-line="336" selection-end-column="113" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="596">
+          <caret line="2222" column="1" selection-start-line="2222" selection-start-column="1" selection-end-line="2222" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Containers/RestOfLayout/RestOfLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Slider/Slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
         </state>
       </provider>
     </entry>

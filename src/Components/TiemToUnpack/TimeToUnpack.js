@@ -36,7 +36,9 @@ class TimeToUnpack extends PureComponent {
 
         // timeout to load page
         setTimeout(()=>{
-         // function on scroll
+            this.restOfLayoutOffset=document.querySelectorAll('.rest-of-layout')[0].offsetTop
+
+            // function on scroll
             window.addEventListener('scroll',()=>{
                 showFunction(this.workComfortDiv,this.restOfLayoutOffset)
                 showFunction(this.saveDiv,this.restOfLayoutOffset)
