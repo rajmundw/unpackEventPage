@@ -7,8 +7,9 @@ class AnimationBubbles2 extends PureComponent  {
     componentDidUpdate(){
         if(window.innerWidth>768){
             document.querySelector('.bubbles-img-2').setAttribute('src',`${Background2}`)
+            document.querySelector('.bubbles-img-2').style.display="block"
         }else{
-            document.querySelector('.bubbles-img-2').setAttribute('src','')
+            document.querySelector('.bubbles-img-2').style.display="none"
         }
     }
     render(){

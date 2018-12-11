@@ -61,8 +61,8 @@ class Slider extends PureComponent {
                 this.endPosition = event.changedTouches[0].clientX
                 console.log(Math.abs(this.initialPosition - this.endPosition), 'aaaa')
                 if (this.endPosition - this.initialPosition > 0.5 * this.sliderWidth) {
-                    el2.style.transform = `translateX(${this.sliderWidth}px)`
-                    el.style.transform = `translateX(${this.sliderWidth}px)`
+                    el2.style.transform = `translateX(100%)`
+                    el.style.transform = `translateX(100%)`
                     document.querySelector('.mission').classList.remove('active')
                     document.querySelector('.vision').classList.add('active')
 
@@ -83,8 +83,8 @@ class Slider extends PureComponent {
                         document.querySelector('.vision').classList.remove('active')
                     }
                 } else {
-                    el.style.transform = `translateX(${this.sliderWidth}px)`
-                    el2.style.transform = `translateX(${this.sliderWidth}px)`
+                    el.style.transform = `translateX(100%)`
+                    el2.style.transform = `translateX(100%)`
                     console.log(el)
                 }
             })

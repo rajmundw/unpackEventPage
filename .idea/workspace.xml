@@ -5,16 +5,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.fe85f0e7a4e6366d7c8d98cc790b864b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.22a13c7c1d4b555617b7e78bd32187fa.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.a3086136.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.a3086136.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.d8fab8ee.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.d8fab8ee.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.0c3fcbbb.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.0c3fcbbb.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.a352ecd1.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.a352ecd1.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Slider/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slider/Slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backgroundElements/bubbles-tablet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/backgroundElements/bubbles-tablet.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,44 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
-              <caret line="2222" column="1" selection-start-line="2222" selection-start-column="1" selection-end-line="2222" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Nav.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Nav/Nav.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2021">
-              <caret line="336" column="113" selection-start-line="336" selection-start-column="113" selection-end-line="336" selection-end-column="113" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestOfLayout.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Containers/RestOfLayout/RestOfLayout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Slider.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/Slider/Slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            <state relative-caret-position="225">
+              <caret line="64" column="57" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -135,8 +103,6 @@
         <option value="$PROJECT_DIR$/src/Components/Header/Header.js" />
         <option value="$PROJECT_DIR$/src/Components/Nav/Nav.js" />
         <option value="$PROJECT_DIR$/src/Components/UnpackSection/UnpackComponent.js" />
-        <option value="$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js" />
-        <option value="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles2.js" />
         <option value="$PROJECT_DIR$/src/Components/MenuList/MenuList.js" />
         <option value="$PROJECT_DIR$/src/Components/Footer/Footer.js" />
         <option value="$PROJECT_DIR$/src/Components/Implementation/Implementation.js" />
@@ -144,9 +110,11 @@
         <option value="$PROJECT_DIR$/src/Functions/showFunction.js" />
         <option value="$PROJECT_DIR$/src/Components/Slider/Slider&gt;768.js" />
         <option value="$PROJECT_DIR$/src/Containers/RestOfLayout/RestOfLayout.js" />
-        <option value="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles.js" />
         <option value="$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js" />
         <option value="$PROJECT_DIR$/src/scss/main.scss" />
+        <option value="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles2.js" />
+        <option value="$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js" />
+        <option value="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles.js" />
         <option value="$PROJECT_DIR$/src/Components/Slider/Slider.js" />
       </list>
     </option>
@@ -246,6 +214,13 @@
               <item name="unpackEventPage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unpackEventPage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unpackEventPage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Containers" type="462c0819:PsiDirectoryNode" />
               <item name="RestOfLayout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -324,7 +299,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="280935000" />
+    <option name="totallyTimeSpent" value="284047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="205" y="67" width="1161" height="676" extended-state="0" />
@@ -576,23 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="77" column="8" lean-forward="true" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Contact/Contact.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -676,16 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/MenuList/MenuList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -720,17 +668,44 @@
     <entry file="file://$PROJECT_DIR$/src/Containers/RestOfLayout/RestOfLayout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="54" column="77" selection-start-line="54" selection-start-column="77" selection-end-line="54" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Slider/Slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        <state relative-caret-position="225">
+          <caret line="64" column="57" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
         </state>
       </provider>
     </entry>

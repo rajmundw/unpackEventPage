@@ -35,10 +35,10 @@ class AnimationBubbles extends PureComponent  {
                     width:'100%'
                 }}
                 >
-                    <div className="container pr-0 pl-0 pr0" style={{height:"100%"}}>
-                        <div className="row mr-0" style={{height:"100%"}}>
+                    <div className="container pr-0 pl-0 pr0" >
+                        <div className="row mr-0" >
                             <div className="col-12 bubbles-parent pr-0">
-                                <img className="bubbles-img-1" style={{"z-index":2, height:"100%"}}/>
+                                <img className="bubbles-img-1" style={{"z-index":2}}/>
                             </div>
                         </div>
                     </div>

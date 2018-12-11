@@ -47,12 +47,12 @@ class InitialLayout extends PureComponent  {
         if(this.state.shouldAnimateBubbles) {
             // if bubbles is visible during resize it can change bacause for laptop and mobile/tablet layout images are other
             if (this.state.currentWindowWidth > 768 && nextState.currentWindowWidth <= 768) {
-                document.querySelector(".bubbles-img-1").setAttribute('src',``)
-                document.querySelector(".bubbles-img-2").setAttribute('src',`${BackgroundTablet}`)
+                document.querySelector(".bubbles-img-1").setAttribute('src',`${BackgroundTablet}`)
+                document.querySelector(".bubbles-img-2").style.display="none"
             } else if (this.state.currentWindowWidth <= 768 && nextState.currentWindowWidth > 768) {
                document.querySelector(".bubbles-img-1").setAttribute('src',`${BackgroundLaptop}`)
                 document.querySelector(".bubbles-img-2").setAttribute('src',`${BackgroundLaptop2}`)
-
+                document.querySelector(".bubbles-img-2").style.display="block"
             }
         }
 
