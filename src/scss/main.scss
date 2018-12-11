@@ -7,7 +7,7 @@
 body{
   background-image: url("../backgroundElements/background.png");
   background-repeat: no-repeat;
-  background-size: 100% 100%
+  background-size: 100% 100%;
 
 }
 //animation
@@ -377,9 +377,7 @@ section:first-of-type {
       div:nth-of-type(3) {
         display: flex;
         justify-content: center;
-        flex-direction: row;
         div.start-collaboration {
-          page-break-inside:avoid;
           padding-top: 0px;
           color: white;
           font-size: 3vw;

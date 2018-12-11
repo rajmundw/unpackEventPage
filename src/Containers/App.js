@@ -20,6 +20,29 @@ class App extends Component {
         })
     }
 
+    componentDidMount() {
+        // if not unpacked event and change browser width check below condition
+        window.addEventListener('resize',()=>{
+            if (document.querySelector('.initial-layout').clientHeight < window.innerHeight && !this.state.unpackedEvent) {
+                document.querySelector('body').style.height = `${window.innerHeight}px`
+                console.log(document.querySelector('.initial-layout').clientHeight,'aaa')
+            }else if(document.querySelector('.initial-layout').clientHeight> window.innerHeight && !this.state.unpackedEvent) {
+                    document.querySelector('body').style.height = `100%`
+                }
+        },500)
+
+        //set body on full screen if initial layout is smaller
+        setTimeout(()=>{
+            if (document.querySelector('.initial-layout').clientHeight < window.innerHeight) {
+                document.querySelector('body').style.height = `${window.innerHeight}px`
+                console.log(document.querySelector('.initial-layout').clientHeight,'aaa')
+            }
+        },500)
+    }
+
+    componentDidUpdate(){
+        document.querySelector('body').style.height = `100%`
+    }
     render() {
         //if unpackedEvent true render initial layout and rest of page
         if (this.state.unpackedEvent) {
