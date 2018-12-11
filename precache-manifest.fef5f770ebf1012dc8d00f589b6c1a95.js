@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/unpackEventPage/static/media/enthusiasm.46c6d5ac.png"
   },
   {
-    "revision": "559f80f075c06452aac3",
+    "revision": "8058c76aa8adcc01868f",
     "url": "/unpackEventPage/static/css/main.a04d3f51.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/unpackEventPage/static/media/bubbles.d28c4b1e.png"
   },
   {
-    "revision": "f0a014ad36b97a27923592611d984486",
-    "url": "/unpackEventPage/static/media/bubbles-tablet.f0a014ad.png"
+    "revision": "4b9cee3f971f69c31f7da74306b51947",
+    "url": "/unpackEventPage/static/media/bubbles-tablet.4b9cee3f.png"
   },
   {
     "revision": "c64f25df92ee1fa36111f729dfb3c5df",
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/unpackEventPage/static/media/countdown.15448cc7.png"
   },
   {
-    "revision": "559f80f075c06452aac3",
-    "url": "/unpackEventPage/static/js/main.559f80f0.chunk.js"
+    "revision": "8058c76aa8adcc01868f",
+    "url": "/unpackEventPage/static/js/main.8058c76a.chunk.js"
   },
   {
     "revision": "d77a62c3a3defab821da182a370aa92a",
@@ -76,20 +76,24 @@ self.__precacheManifest = [
     "url": "/unpackEventPage/static/media/box2.8387d001.png"
   },
   {
-    "revision": "06b47637b9d8017be1fda29ace11f262",
-    "url": "/unpackEventPage/static/media/background.06b47637.png"
-  },
-  {
     "revision": "0f8c73190e5030254b30bd1ec6233b54",
     "url": "/unpackEventPage/static/media/background>768.0f8c7319.png"
   },
   {
-    "revision": "0019a4e4ef68a2d0577b0c351c90b8c5",
-    "url": "/unpackEventPage/static/media/fontello.0019a4e4.woff2"
+    "revision": "06b47637b9d8017be1fda29ace11f262",
+    "url": "/unpackEventPage/static/media/background.06b47637.png"
   },
   {
     "revision": "86f0d601dfaea3e4f37edce8cf31c932",
     "url": "/unpackEventPage/static/media/fontello.86f0d601.ttf"
+  },
+  {
+    "revision": "d7790aa86811b52e0a77e624c1578d92",
+    "url": "/unpackEventPage/static/media/fontello.d7790aa8.woff"
+  },
+  {
+    "revision": "0019a4e4ef68a2d0577b0c351c90b8c5",
+    "url": "/unpackEventPage/static/media/fontello.0019a4e4.woff2"
   },
   {
     "revision": "d842d5dcb65e9cbf8fa0c3711b88a388",
@@ -100,11 +104,7 @@ self.__precacheManifest = [
     "url": "/unpackEventPage/static/media/fontello.efc13bb9.eot"
   },
   {
-    "revision": "d7790aa86811b52e0a77e624c1578d92",
-    "url": "/unpackEventPage/static/media/fontello.d7790aa8.woff"
-  },
-  {
-    "revision": "a00a6a39eaf7d3a6f92e85f845c7c139",
+    "revision": "e0c78dd88ea4d0c929d642035361cb66",
     "url": "/unpackEventPage/index.html"
   }
 ];
