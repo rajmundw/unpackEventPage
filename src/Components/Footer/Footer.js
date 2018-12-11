@@ -60,17 +60,17 @@ class Footer extends PureComponent {
                         <div className="col-12 pr-0 pl-0">
                             <img src={FooterBackground}/>
                         </div>
-                    </div>
-                    <div className='row'>
-                        <div className="col-3 ">
-                            <img src={RiseDown}/>
-                        </div>
-                        <div className="col-6 ">
-                            <div className="icon-instagram"></div>
-                            <div className="icon-facebook-squared"></div>
-                        </div>
-                        <div className="col-3">
-                            <img src={FooterGroup}/>
+                        <div className="footer-nav">
+                            <div className="col-3 ">
+                                <img src={RiseDown}/>
+                            </div>
+                            <div className="col-6 ">
+                                <div className="icon-instagram"></div>
+                                <div className="icon-facebook-squared"></div>
+                            </div>
+                            <div className="col-3">
+                                <img src={FooterGroup}/>
+                            </div>
                         </div>
                     </div>
                 </footer>

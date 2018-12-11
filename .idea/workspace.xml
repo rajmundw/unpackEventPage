@@ -5,13 +5,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.fef5f770ebf1012dc8d00f589b6c1a95.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.b0bea7a99543a519abab50e267e36b01.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.a04d3f51.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.a04d3f51.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.8058c76a.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.8058c76a.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.b108917b.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.b108917b.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.c59c98db.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.c59c98db.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
@@ -27,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Containers/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
+            <state relative-caret-position="600">
               <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -39,11 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Footer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Footer/Footer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="62" column="40" lean-forward="true" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="318">
+              <caret line="1729" column="30" selection-start-line="1729" selection-start-column="30" selection-end-line="1729" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -68,8 +77,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.sti</find>
-      <find>bar</find>
       <find>.row</find>
       <find>foo</find>
       <find>sansa</find>
@@ -87,7 +94,6 @@
       <find>topIni</find>
       <find>shouldC</find>
       <find>this.setst</find>
-      <find>footer</find>
       <find>didu</find>
       <find>site</find>
       <find>should</find>
@@ -98,6 +104,9 @@
       <find>menu</find>
       <find>start</find>
       <find>body</find>
+      <find>slider</find>
+      <find>footer</find>
+      <find>slid</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,7 +130,6 @@
         <option value="$PROJECT_DIR$/src/Components/Header/Header.js" />
         <option value="$PROJECT_DIR$/src/Components/Nav/Nav.js" />
         <option value="$PROJECT_DIR$/src/Components/MenuList/MenuList.js" />
-        <option value="$PROJECT_DIR$/src/Components/Footer/Footer.js" />
         <option value="$PROJECT_DIR$/src/Components/Implementation/Implementation.js" />
         <option value="$PROJECT_DIR$/src/Components/Implementation/Projects.js" />
         <option value="$PROJECT_DIR$/src/Functions/showFunction.js" />
@@ -133,8 +141,9 @@
         <option value="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles.js" />
         <option value="$PROJECT_DIR$/src/Components/Slider/Slider.js" />
         <option value="$PROJECT_DIR$/src/Components/UnpackSection/UnpackComponent.js" />
-        <option value="$PROJECT_DIR$/src/scss/main.scss" />
         <option value="$PROJECT_DIR$/src/Containers/App.js" />
+        <option value="$PROJECT_DIR$/src/Components/Footer/Footer.js" />
+        <option value="$PROJECT_DIR$/src/scss/main.scss" />
       </list>
     </option>
   </component>
@@ -153,8 +162,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="175" />
-    <option name="y" value="38" />
+    <option name="x" value="205" />
+    <option name="y" value="150" />
     <option name="width" value="1161" />
     <option name="height" value="676" />
   </component>
@@ -193,6 +202,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="AnimationBubbles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unpackEventPage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unpackEventPage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Footer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="unpackEventPage" type="b2602c69:ProjectViewProjectNode" />
@@ -321,48 +337,37 @@
       <workItem from="1544079634159" duration="25399000" />
       <workItem from="1544164215545" duration="12196000" />
       <workItem from="1544230722853" duration="49577000" />
+      <workItem from="1544523077621" duration="2204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287603000" />
+    <option name="totallyTimeSpent" value="291548000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="175" y="38" width="1161" height="676" extended-state="0" />
+    <frame x="205" y="150" width="1161" height="676" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.9095941" visible="true" weight="0.2135325" />
       <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="6" />
-      <window_info id="npm" order="0" sideWeight="0.09208103" side_tool="true" visible="true" weight="0.2135325" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info id="Gulp" order="2" sideWeight="0.11401425" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.907919" visible="true" weight="0.2135325" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="5" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Thumbnails" order="11" visible="true" weight="0.0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info id="npm" order="0" sideWeight="0.090405904" side_tool="true" visible="true" weight="0.2135325" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.9095941" visible="true" weight="0.2135325" />
-      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Gulp" order="2" sideWeight="0.11401425" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="5" />
     </layout>
     <layout-to-restore>
       <window_info id="Gulp" order="2" sideWeight="0.11401425" side_tool="true" weight="0.25" />
@@ -370,20 +375,20 @@
       <window_info id="npm" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Thumbnails" order="11" visible="true" weight="0.0" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
       <window_info id="Favorites" order="1" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -526,26 +531,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubblesTabletEmptyElement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubblesTablet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubblesTabletEmptyElement.js" />
+    <entry file="file://$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubblesTablet.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -564,13 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Footer/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-635">
-          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -620,9 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="111" column="23" lean-forward="true" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -631,11 +608,7 @@
         <state relative-caret-position="-1798" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5258" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/index.css" />
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -654,9 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2021">
           <caret line="336" column="113" selection-start-line="336" selection-start-column="113" selection-end-line="336" selection-end-column="113" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,9 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -691,9 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,6 +675,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Containers/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Footer/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="62" column="40" lean-forward="true" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/UnpackSection/UnpackComponent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -720,18 +701,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Containers/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="318">
+          <caret line="1729" column="30" selection-start-line="1729" selection-start-column="30" selection-end-line="1729" selection-end-column="30" />
         </state>
       </provider>
     </entry>
