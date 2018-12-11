@@ -5,17 +5,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.22a13c7c1d4b555617b7e78bd32187fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.6ec6a12562eb6de92b9484e9597aaa04.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.0c3fcbbb.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.0c3fcbbb.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.a352ecd1.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.a352ecd1.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Slider/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slider/Slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backgroundElements/bubbles-tablet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/backgroundElements/bubbles-tablet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.559f80f0.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.559f80f0.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/bubbles-tablet.f0a014ad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UnpackSection/UnpackComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UnpackSection/UnpackComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +26,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Slider.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Components/Slider/Slider.js">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="64" column="57" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
+            <state relative-caret-position="273">
+              <caret line="234" selection-start-line="234" selection-end-line="234" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnpackComponent.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/UnpackSection/UnpackComponent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="116" selection-start-line="18" selection-start-column="116" selection-end-line="18" selection-end-column="116" />
             </state>
           </provider>
         </entry>
@@ -49,8 +55,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>me</find>
-      <find>menu-</find>
       <find>lan</find>
       <find>stic</find>
       <find>.sti</find>
@@ -64,7 +68,6 @@
       <find>contact</find>
       <find>black</find>
       <find>576</find>
-      <find>menu</find>
       <find>menu-poin</find>
       <find>bottom</find>
       <find>menu-po</find>
@@ -79,6 +82,9 @@
       <find>should</find>
       <find>offer</find>
       <find>bubble</find>
+      <find>scro</find>
+      <find>start-c</find>
+      <find>menu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -102,7 +108,6 @@
         <option value="$PROJECT_DIR$/src/Containers/App.js" />
         <option value="$PROJECT_DIR$/src/Components/Header/Header.js" />
         <option value="$PROJECT_DIR$/src/Components/Nav/Nav.js" />
-        <option value="$PROJECT_DIR$/src/Components/UnpackSection/UnpackComponent.js" />
         <option value="$PROJECT_DIR$/src/Components/MenuList/MenuList.js" />
         <option value="$PROJECT_DIR$/src/Components/Footer/Footer.js" />
         <option value="$PROJECT_DIR$/src/Components/Implementation/Implementation.js" />
@@ -111,11 +116,12 @@
         <option value="$PROJECT_DIR$/src/Components/Slider/Slider&gt;768.js" />
         <option value="$PROJECT_DIR$/src/Containers/RestOfLayout/RestOfLayout.js" />
         <option value="$PROJECT_DIR$/src/Components/TiemToUnpack/TimeToUnpack.js" />
-        <option value="$PROJECT_DIR$/src/scss/main.scss" />
         <option value="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles2.js" />
         <option value="$PROJECT_DIR$/src/Containers/Layout/InitialLayout.js" />
         <option value="$PROJECT_DIR$/src/Components/AnimationBubbles/AnimationBubbles.js" />
         <option value="$PROJECT_DIR$/src/Components/Slider/Slider.js" />
+        <option value="$PROJECT_DIR$/src/Components/UnpackSection/UnpackComponent.js" />
+        <option value="$PROJECT_DIR$/src/scss/main.scss" />
       </list>
     </option>
   </component>
@@ -134,8 +140,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="205" />
-    <option name="y" value="67" />
+    <option name="x" value="11" />
+    <option name="y" value="92" />
     <option name="width" value="1161" />
     <option name="height" value="676" />
   </component>
@@ -202,6 +208,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="TiemToUnpack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unpackEventPage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unpackEventPage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="UnpackSection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="unpackEventPage" type="b2602c69:ProjectViewProjectNode" />
@@ -299,10 +312,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284047000" />
+    <option name="totallyTimeSpent" value="285622000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="205" y="67" width="1161" height="676" extended-state="0" />
+    <frame x="11" y="92" width="1161" height="676" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -544,13 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/UnpackSection/UnpackComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Contact/Contact.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -658,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="2222" column="1" selection-start-line="2222" selection-start-column="1" selection-end-line="2222" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Containers/RestOfLayout/RestOfLayout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -704,8 +703,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Slider/Slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="64" column="57" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
+        <state relative-caret-position="210">
+          <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/UnpackSection/UnpackComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="116" selection-start-line="18" selection-start-column="116" selection-end-line="18" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="234" selection-start-line="234" selection-end-line="234" />
         </state>
       </provider>
     </entry>

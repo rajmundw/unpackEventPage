@@ -232,7 +232,6 @@ header {
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
-  visibility: hidden;
   .menu-container {
     margin: auto;
     width: 10%;
@@ -378,7 +377,9 @@ section:first-of-type {
       div:nth-of-type(3) {
         display: flex;
         justify-content: center;
+        flex-direction: row;
         div.start-collaboration {
+          page-break-inside:avoid;
           padding-top: 0px;
           color: white;
           font-size: 3vw;
@@ -404,7 +405,7 @@ section:first-of-type {
     .scroll-to-unpack {
       display: block;
       position: absolute;
-      top: 50%;
+      top: 53%;
       left: 40%;
       font-size: 3vw;
       font-weight: bold;
@@ -1129,7 +1130,7 @@ section:first-of-type {
       }
       //scroll tu unpack text animation
       .scroll-to-unpack {
-        top: 51%;
+        top: 53%;
         left: 42%;
       }
       @keyframes unpack-animation {
@@ -1555,7 +1556,7 @@ section:first-of-type {
       }
       //scroll tu unpack text animation
       .scroll-to-unpack {
-        top: 55%;
+        top: 57.5%;
         left: 46%;
         font-weight: bold;
         letter-spacing: 0.1vw;
