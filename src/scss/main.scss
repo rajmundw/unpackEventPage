@@ -1358,6 +1358,7 @@ section:first-of-type {
   }
   .initial-layout{
     z-index: 1;
+    overflow: hidden;
   }
   .rest-of-layout{
     z-index: 2;
@@ -1476,6 +1477,7 @@ section:first-of-type {
   }
   .menu {
     .menu-container{
+      overflow: hidden;
       z-index:5;
       margin-right: 0;
       width: 3.8vw;
